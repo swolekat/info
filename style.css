@@ -155,14 +155,14 @@ h2 {
 
 .avatar-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
 }
 
 .avatar {
     background: #fff;
     border-radius: 100px;
-    height: 700px;
+    height: 500px;
     position: relative;
     overflow: hidden;
     color: #212020;
