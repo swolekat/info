@@ -59,6 +59,12 @@ section {
     margin-top: 60px;
 }
 
+.flashy-intro-section > video {
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+
 .about-section{
     padding: 30px;
 }
@@ -209,4 +215,40 @@ h2 {
     padding: 30px;
     border-radius: 5px;
     height: 100%;
+}
+
+.emotes-section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+}
+
+.emote-section {
+    background: #C61618;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.emote-creator-name {
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+}
+
+.emote-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.emote {
+    background: #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.emote-name {
+
 }
