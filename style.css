@@ -247,3 +247,32 @@ h2 {
     padding: 10px;
     text-align: center;
 }
+
+.minigames {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.minigame {
+    padding: 20px;
+    background: #C61618;
+    border-radius: 10px;
+}
+
+.minigame > h3 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.minigame div {
+    line-height: 30px;
+}
+
+.minigame pre {
+    display: inline;
+    background: #5E5651;
+    padding: 5px;
+    border-radius: 10px;
+}
