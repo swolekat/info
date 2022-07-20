@@ -293,8 +293,6 @@ h2 {
 .games-grid {
     margin-top: 30px;
     columns: auto 300px;
-    /*display: grid;*/
-    /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
     column-gap: 20px;
     break-inside: avoid;
     page-break-inside: avoid;
