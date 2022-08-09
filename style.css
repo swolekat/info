@@ -129,6 +129,27 @@ h2 {
     margin-right: 20px;
 }
 
+.misc-section {
+    background: #38312C;
+    padding: 30px;
+    color: #fff;
+    height: auto;
+    min-height: auto;
+}
+
+.misc-section-content {
+    border: 5px solid #fff;
+    padding: 30px;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 24px;
+}
+
+.misc-section-content  a {
+    font-weight: bold;
+    color: #C61618;
+}
+
 .secret-command-section {
     background: #5E5651;
     padding: 30px;
