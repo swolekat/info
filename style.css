@@ -145,6 +145,7 @@ h2 {
     font-size: 24px;
 }
 
+.secret-command-section a,
 .misc-section-content  a {
     font-weight: bold;
     color: #C61618;
