@@ -1,0 +1,72 @@
+[
+  {
+    "greeting": "Hello, I would like to buy this.",
+    "angryResponses": ["I am angry that the price is not what it should be.", "Please adjust. This price makes me angry"],
+    "sadResponses": ["I am sad, but not angry because you are closer.", "Please try to guess closer to make me happy."],
+    "happyResponses": ["I am happy and satisfied with this transaction.", "Wow, you won the game. Good job."],
+    "superHappyResponses": ["Wow you're really good at this guessing thing.", "You guessed super close. Hurray!"]
+  },
+  {
+    "greeting": "ε===(っ≧ω≦)っ Watashi ran to anata's shop 2 git dis item!",
+    "angryResponses": ["┌∩┐(◣_◢)┌∩┐ u tink dis is a joke? Watashi has many angry faces! 凸( ` ﾛ ´ )凸", "↑_(ΦwΦ)Ψ Watashi will b ur devil!"],
+    "sadResponses": ["o(TヘTo) dis no gud ", "(ಥ﹏ಥ) y anata lik dis????"],
+    "happyResponses": ["(✧ω✧) Watashi is very arigatouful 4 da deal!", "＼(≧▽≦)／ YATA! Capitalism achieved!"],
+    "superHappyResponses": ["ヽ(♡‿♡)ノ wil anata marry watashi???", "(´ ε ` )♡ anata! It's taim 2 chuuuu!"]
+  },
+  {
+    "greeting": "This. Please",
+    "angryResponses": ["Terrible", "Pathetic."],
+    "sadResponses": ["No good.", "Unacceptable."],
+    "happyResponses": ["Satisfactory.", "Acceptable."],
+    "superHappyResponses": ["Great.", "Better than average."]
+  },
+  {
+    "greeting": "Hi! How are you doing? I noticed that the earth is rotating and you have needs and I would like to help you by buying this item. I think that purchasing this item will benefit both of is and it'll be a really good idea. Do you think so as well? I think it would.",
+    "angryResponses": ["What the fuck did you just fucking say about me, you little bitch? I’ll have you know I graduated top of my class in the Navy Seals, and I’ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words.", "Never in my wildest dreams did I think I could be insulted as much as I am now. You call that a guess? I call that a embarassement. I swear, if you don't shape up I will have to destroy you! I'll have you regret every single thing you ever imagined!"],
+    "sadResponses": ["Here I am, sitting in my couch, at 308 Negra Aroya Lane, Albuquerque, New Mexico, 87104 and the only emotion I can possibly feel is sadness. If it wasn't saddness that I was feeling it'd be dissapointment. I urge you to do better, for the both of us.", "I'm dead X_X (biologically speaking I am, in fact, alive. However, to emphasize how hilarious I found the comment just made, I made a hyperbolic statement saying that I was dead because it implies that I found the joke so funny I ceased to live."],
+    "happyResponses": ["Wow this is a great price. Thank you so much I'm very happy. It wasn't only fate but providence that brought us together I thank god for this very very very very very very blessed day!.", "In 1974, the local township made the road leading to this shop. I don't think that they could have ever believed that it would lead to me making the best purchase of all time. What a wonderous history and what a even more wonderous day!"],
+    "superHappyResponses": [":):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)", "I'm speechless."]
+  },
+  {
+    "greeting": "Capitalism, ho!",
+    "angryResponses": [" Are you serious? People will just laugh at you! I'm kind of embarrassed just listening to all this!", "Son of a SUBMARINER!", "Please tell me you're not actually serious!"],
+    "sadResponses": ["I don't wanna be a sailor!", "Oh, carp!"],
+    "happyResponses": ["Yayifications!", "Yepperoni! Easy as pie!"],
+    "superHappyResponses": ["Holy Carp!", "Amazing! Yayness!"]
+  },
+  {
+    "greeting": "My wife was nagging me to pick this up.",
+    "angryResponses": ["Misunderstandings as profound as this leads to religions. BAD ones.", "What. Is. This. That idea is so disconnected from reality that I cannot tell whether you are mocking me or trying to be profound. And...failing. Badly. Speak plainly."],
+    "sadResponses": ["You can do better.", "That much? Can you change it a bit?"],
+    "happyResponses": ["Now this will come in handy!", "Wow, even stuff like this sells!"],
+    "superHappyResponses": ["Thank you, Swolekat!", "Your haggling skills are a win! Take it!"]
+  },
+  {
+    "greeting": "Heh heh, I've been searching for one of these...",
+    "angryResponses": ["Are you serious?", "Too wrong! Make it better!"],
+    "sadResponses": ["Whoa whoa. Is that really what you think?", "It's that much? You can't change it at all?"],
+    "happyResponses": ["Well, that seems about right. Okay, here's the money.", "Alright, I'll take that price."],
+    "superHappyResponses": ["Awesome! Thanks! That's a great price!", ""]
+  },
+  {
+    "greeting": "Please sell things at me!",
+    "angryResponses": ["This is getting dumb.", "So it's THAT WAY, HUH?"],
+    "sadResponses": ["Ummm... that's not right.", "I can't afford that. Can you change it?"],
+    "happyResponses": ["Didn't think I'd get that good a price!", "Ah, I can't ask you to change it. Right. I'll take it!"],
+    "superHappyResponses": ["I can't believe how good this is!", "Wow!"]
+  },
+  {
+    "greeting": "Ha! I never thought I'd find one of these here.",
+    "angryResponses": ["And with that, I never thought I'd BE here.", "You can't be serious can you!?"],
+    "sadResponses": ["Huh? It's really like that?", "Can't you give me a slightly better deal?"],
+    "happyResponses": ["That'll be fine.", "Okay!"],
+    "superHappyResponses": ["That's more than reasonable!", "Amazing shopping experience!"]
+  },
+  {
+    "greeting": "Ah little kitty, how much for this?",
+    "angryResponses": ["That's it. I'm going to puma's instead!", "I'm more of a dog person anyways!"],
+    "sadResponses": ["I thought a cute cat like you would be nicer :(", "This cat is a biter"],
+    "happyResponses": ["Good deal little kitty!", "Fantastic! That's nice!"],
+    "superHappyResponses": ["That's my wittle kimty!", "This deal is great as you are cute!"]
+  }
+]
