@@ -359,3 +359,26 @@ h2 {
     display: block;
     width: 100%;
 }
+
+.reference-section {
+    padding: 30px;
+}
+
+.reference-section-content {
+    border: 5px solid #212020;
+    color: #212020;
+    padding: 30px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.reference-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 20px;
+}
+
+.reference-grid img {
+    display: block;
+    width: 100%;
+}
