@@ -175,6 +175,31 @@ h2 {
     padding: 5px;
 }
 
+.bit-menu-section {
+    padding: 30px;
+}
+
+.bit-menu-content {
+    border: 5px solid #212020;
+    color: #212020;
+    padding: 30px;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 24px;
+}
+
+.bit-menu li {
+    margin-bottom: 10px;
+}
+
+.bit-menu pre {
+    display: inline;
+    background: #C61618;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+}
+
 .avatar-section {
     background: #38312C;
     padding: 30px;
