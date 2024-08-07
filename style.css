@@ -388,11 +388,13 @@ h2 {
 
 .reference-section {
     padding: 30px;
+    background: #38312C;
+    color: #fff;
 }
 
 .reference-section-content {
-    border: 5px solid #212020;
-    color: #212020;
+    border: 5px solid #FFF;
+    color: #ffffff;
     padding: 30px;
     border-radius: 5px;
     height: 100%;
