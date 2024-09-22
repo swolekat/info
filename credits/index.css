@@ -1,0 +1,67 @@
+.emotes-section {
+    background: #5E5651;
+    padding: 30px;
+    color: #fff;
+}
+
+.emote-section-content {
+    border: 5px solid #212020;
+    padding: 30px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.emotes-section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    grid-gap: 20px;
+}
+
+.emote-section {
+    background: #C61618;
+    border-radius: 5px;
+    padding: 20px;
+    color: #212020;
+}
+
+.emote-creator-name {
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.emote-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.emote {
+    background: #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.misc-section {
+    background: #38312C;
+    padding: 30px;
+    color: #fff;
+    height: auto;
+    min-height: auto;
+}
+
+.misc-section-content {
+    border: 5px solid #fff;
+    padding: 30px;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 24px;
+}
+
+.misc-section-content  a {
+    font-weight: bold;
+    color: #C61618;
+}

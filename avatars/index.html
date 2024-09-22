@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swolekat's Avatars</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../header.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="../images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header>
+    <a href="../">
+        <img src="../images/logo.svg">
+    </a>
+</header>
+<section class="about-section">
+    <div class="about-section-content">
+        <h1>
+            Avatars
+        </h1>
+        <p>
+            I have way to many models. Here you can find them all!
+        </p>
+    </div>
+</section>
+<section class="avatars-list-section">
+    <div class="avatars-list-content">
+        <div class="avatars-list-controls">
+            <div class="control-row">
+                <input type="text" id="nameFilterInput" placeholder="Type to Filter">
+                <select id="modelFilterSelect">
+                    <option value="none" selected>No Model Filter</option>
+                    <option value="swolekat">Swolekat</option>
+                    <option value="bae">Swolebae</option>
+                    <option value="kyle">Kyle</option>
+                </select>
+            </div>
+        </div>
+        <div class="side-by-side-section">
+            <div class="avatar-list" id="avatars-list">
+
+            </div>
+            <div class="avatar-detail" id="avatar-detail">
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<script>
+    (function(){
+        let nameFilter = '';
+        let modelFilter = 'none';
+        let selectedAvatar;
+
+        const AVATARS = [
+            {
+                name: 'Swolekat 1.0',
+                thumbnail: './avatarThumbnails/swolekat1.0.png',
+                image: './avatars/swolekat-10.gif',
+                author: '歩留マリ',
+                authorLink: 'https://twitter.com/budo_mari',
+                modelType: 'swolekat',
+                tagline: 'The OG'
+            },
+            {
+                name: 'BusinessKat',
+                thumbnail: './avatarThumbnails/businessKat1.0.png',
+                image: './avatars/businesskat-10.gif',
+                author: '歩留マリ',
+                authorLink: 'https://twitter.com/budo_mari',
+                modelType: 'swolekat',
+                tagline: 'How business was done in the old days.'
+            },
+            {
+                name: 'Swolekat 2.0',
+                thumbnail: './avatarThumbnails/sk2.5.png',
+                image: './avatars/swolekat-20.gif',
+                author: 'pedrocrispa',
+                authorLink: 'https://www.fiverr.com/pedrocrispa',
+                modelType: 'swolekat',
+                tagline: 'Big Buff Cat Man'
+            },
+            {
+                name: 'Swolebae 1.0',
+                thumbnail: './avatarThumbnails/swolebae1.0.png',
+                image: './avatars/swolebae-10.gif',
+                author: 'mgl_vr',
+                authorLink: 'https://www.fiverr.com/mgl_vr',
+                modelType: 'bae',
+                tagline: 'The original waifu'
+            },
+            {
+                name: 'Skeleton',
+                thumbnail: './avatarThumbnails/skeleton.png',
+                image: './avatars/skeleton.gif',
+                tagline: 'Spooky and scary'
+            },
+            {
+                name: 'Christmas Swolebae 1.0',
+                thumbnail: './avatarThumbnails/christmasSwolebae1.0.png',
+                image: './avatars/christmas-swolebae-10.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Vintage Padoru'
+            },
+            {
+                name: 'Retro Swolekat',
+                thumbnail: './avatarThumbnails/retroSwolekat.png',
+                image: './avatars/retro-swolekat.gif',
+                author: 'nanana_na_nashi',
+                authorLink: 'https://www.fiverr.com/nanana_na_nashi',
+                modelType: 'swolekat',
+                tagline: 'Low Poly Muscle Cat'
+            },
+            {
+                name: 'Swolekid',
+                thumbnail: './avatarThumbnails/swolekid.png',
+                image: './avatars/swolekid.gif',
+                author: 'CandyHiDRA',
+                authorLink: 'https://twitter.com/CandyHiDRA1',
+                modelType: 'swolekat',
+                tagline: 'Most kawaii kitten'
+            },
+            {
+                name: 'Swolebae 2.0',
+                thumbnail: './avatarThumbnails/swolebae2.0.png',
+                image: './avatars/swolebae-20.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Waifu perfection re-imagined'
+            },
+            {
+                name: 'Maid Swolebae',
+                thumbnail: './avatarThumbnails/maid.png',
+                image: './avatars/maidbae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Here to clean up the chat'
+            },
+            {
+                name: 'Schoolgirl Swolebae',
+                thumbnail: './avatarThumbnails/schoolgirl.png',
+                image: './avatars/schoolgirl-swolebae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Just like in one of my animes'
+            },
+            {
+                name: 'Asuka',
+                thumbnail: './avatarThumbnails/asuka.png',
+                image: './avatars/asuka.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'It\'s not like I want you to pick me or anything'
+            },
+            {
+                name: 'Rei',
+                thumbnail: './avatarThumbnails/rei.png',
+                image: './avatars/rei.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Understood.'
+            },
+            {
+                name: 'Chibi Swolebae',
+                thumbnail: './avatarThumbnails/chibiSwolebae.png',
+                image: './avatars/chibi-swolebae.gif',
+                author: 'CandyHiDRA',
+                authorLink: 'https://twitter.com/CandyHiDRA1',
+                modelType: 'bae',
+                tagline: 'Chibi with the biggest bitties'
+            },
+            {
+                name: 'Retro Swolebae',
+                thumbnail: './avatarThumbnails/retroSwolebae.png',
+                image: './avatars/retro-swolebae.gif',
+                author: 'nanana_na_nashi',
+                authorLink: 'https://www.fiverr.com/nanana_na_nashi',
+                modelType: 'bae',
+                tagline: 'Better than Laura'
+            },
+            {
+                name: 'Subnautica Swolebae',
+                thumbnail: './avatarThumbnails/subnautica.png',
+                image: './avatars/subnautica.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Subzero Waifu'
+            },
+            {
+                name: 'Nunbae',
+                thumbnail: './avatarThumbnails/nunbae.png',
+                image: './avatars/nunbae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'You definitely need Jesus'
+            },
+            {
+                name: 'Gothbae',
+                thumbnail: './avatarThumbnails/gothbae.png',
+                image: './avatars/gothbae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Ebony Dark\'ness Dementia Raven Way'
+            },
+            {
+                name: 'T-Shirt Swolekat',
+                thumbnail: './avatarThumbnails/tshirtSwolekat.png',
+                image: './avatars/tshirt-swolekat.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'Nipples covered and ready for action!'
+            },
+            {
+                name: 'BusinessKat 2.0',
+                thumbnail: './avatarThumbnails/businessKat2.0.png',
+                image: './avatars/business-kat-20.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'The new era of synergy!'
+            },
+            {
+                name: 'Western Bae',
+                thumbnail: './avatarThumbnails/westernBae.png',
+                image: './avatars/westernBae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Y\'all best behave. There\'s a new sherrif in town'
+            },
+            {
+                name: 'Penny',
+                thumbnail: './avatarThumbnails/penny.png',
+                image: './avatars/penny.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Got any crops for me?'
+            },
+            {
+                name: 'Swoleloaf',
+                thumbnail: './avatarThumbnails/swoleloaf.png',
+                image: './avatars/swoleloaf.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: '15 grams of protein!'
+            },
+            {
+                name: 'Baeloaf',
+                thumbnail: './avatarThumbnails/baeLoaf.png',
+                image: './avatars/baeloaf.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: '100% pure honey bun!'
+            },
+            {
+                name: 'Gothbae Dress',
+                thumbnail: './avatarThumbnails/gothDress.png',
+                image: './avatars/gothbae-dress.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Mistress of the Chat OwO'
+            },
+            {
+                name: 'Maika',
+                thumbnail: './avatarThumbnails/maika.png',
+                image: './avatars/maika.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Smile'
+            },
+            {
+                name: 'Kaho',
+                thumbnail: './avatarThumbnails/kaho.png',
+                image: './avatars/kaho.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Sweet'
+            },
+            {
+                name: 'Mafuyu',
+                thumbnail: './avatarThumbnails/mafuyu.png',
+                image: './avatars/mafuyu.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Sister'
+            },
+            {
+                name: 'Miu',
+                thumbnail: './avatarThumbnails/miu.png',
+                image: './avatars/miu.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Sadistic'
+            },
+            {
+                name: 'Hideri',
+                thumbnail: './avatarThumbnails/hideri.png',
+                image: './avatars/hideri.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Surprise'
+            },
+            {
+                name: 'SwoleServer',
+                thumbnail: './avatarThumbnails/waiterSwolekatA.png',
+                image: './avatars/waiter-swolekat-version-A.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'We are...'
+            },
+            {
+                name: 'SwoleServer Alt',
+                thumbnail: './avatarThumbnails/waiterSwolekatB.png',
+                image: './avatars/waiter-swolekat-version-B.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: '... Stile!'
+            },
+            {
+                name: 'Emerald Herald',
+                thumbnail: './avatarThumbnails/emeraldHerald.png',
+                image: './avatars/emerald-herald.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Seek Seek Lest'
+            },
+            {
+                name: 'Swolekat 1.0 Black',
+                thumbnail: './avatarThumbnails/swolekat1.0Black.png',
+                image: './avatars/swolekat-10-black.gif',
+                author: '歩留マリ',
+                authorLink: 'https://twitter.com/budo_mari',
+                modelType: 'swolekat',
+                tagline: 'Black version of the classic'
+            },
+            {
+                name: 'Swolekat 1.0 White',
+                thumbnail: './avatarThumbnails/swolekat1.0White.png',
+                image: './avatars/swolekat-10-black.gif',
+                author: '歩留マリ',
+                authorLink: 'https://twitter.com/budo_mari',
+                modelType: 'swolekat',
+                tagline: 'White version of the classic'
+            },
+            {
+                name: 'Lady D',
+                thumbnail: './avatarThumbnails/ladyD.png',
+                image: './avatars/lady-d.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: '7ft tall dommy mommy OwO'
+            },
+            {
+                name: 'ThiccBae',
+                thumbnail: './avatarThumbnails/thiccbae.png',
+                image: './avatars/thiccbae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Gaddamn she thick'
+            },
+            {
+                name: 'GothiccBae',
+                thumbnail: './avatarThumbnails/gothicc.png',
+                image: './avatars/gothiccbae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Gaddamn she thick (and goth)'
+            },
+            {
+                name: 'Kyle',
+                thumbnail: './avatarThumbnails/kyle.png',
+                image: './avatars/kyle.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'kyle',
+                tagline: 'Femboi swolekat from another dimension!'
+            },
+            {
+                name: 'Komaru',
+                thumbnail: './avatarThumbnails/komaru.png',
+                image: './avatars/komaru.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'That\'s one crazy bear!'
+            },
+            {
+                name: 'Christmas Swolebae 2.0',
+                thumbnail: './avatarThumbnails/christmasSwolebae2.0.png',
+                image: './avatars/christmas-swolebae-20.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'UPGRADED PADORU'
+            },
+            {
+                name: 'Baiken',
+                thumbnail: './avatarThumbnails/baiken2.png',
+                image: './avatars/baiken.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'One arm swordswoman'
+            },
+            {
+                name: 'Cowbae',
+                thumbnail: './avatarThumbnails/cowbae2.png',
+                image: './avatars/cowbae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Be careful for unexpected moovements'
+            },
+            {
+                name: 'Recette',
+                thumbnail: './avatarThumbnails/recette.png',
+                image: './avatars/recette.gif',
+                author: 'CandyHiDRA',
+                authorLink: 'https://twitter.com/CandyHiDRA1',
+                modelType: 'bae',
+                tagline: 'Want to buy something from my item shop?'
+            },
+            {
+                name: 'Uzaki',
+                thumbnail: './avatarThumbnails/uzaki.png',
+                image: './avatars/uzaki.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'You like me, don\'t you senpai!'
+            },
+            {
+                name: 'Grungebae',
+                thumbnail: './avatarThumbnails/grungeBae.png',
+                image: './avatars/grungebae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Wake up honey! Time to mosh!'
+            },
+            {
+                name: 'Maid Loaf',
+                thumbnail: './avatarThumbnails/maidloaf.png',
+                image: './avatars/maidloaf.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Da service loaf UwU'
+            },
+            {
+                name: 'Swolebae 3.0',
+                thumbnail: './avatarThumbnails/swolebae3.0.png',
+                image: './avatars/swolebae-30.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Mo bae mo booty'
+            },
+            {
+                name: 'BAEyonetta',
+                thumbnail: './avatarThumbnails/baeyonetta.png',
+                image: './avatars/baeyonetta.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Charachter Action Waifu'
+            },
+            {
+                name: 'Gothloaf',
+                thumbnail: './avatarThumbnails/gothLoaf.png',
+                image: './avatars/goth-loaf.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Bred out of pure darkness'
+            },
+            {
+                name: 'Bunny Bae',
+                thumbnail: './avatarThumbnails/bunnyBae.png',
+                image: './avatars/bunnybae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'No sword riding though'
+            },
+            {
+                name: 'Astolfo',
+                thumbnail: './avatarThumbnails/astolfo.png',
+                image: './avatars/astolfo.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'kyle',
+                tagline: 'Cutest Femboy Ever UwU!'
+            },
+            {
+                name: 'Rosa',
+                thumbnail: './avatarThumbnails/rosa.png',
+                image: './avatars/rosa.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Cecil\'s Waifu'
+            },
+            {
+                name: 'Dark Knight Cecil',
+                thumbnail: './avatarThumbnails/cecilDarkKnight.png',
+                image: './avatars/dark-knight-cecil.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'Captain of the Red Wings'
+            },
+            {
+                name: 'Paladin Cecil',
+                thumbnail: './avatarThumbnails/cecilPaladin.png',
+                image: './avatars/paladin-cecil.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'Cool Moon Guy'
+            },
+            {
+                name: 'Bloodborne Doll',
+                thumbnail: './avatarThumbnails/bloodborne.png',
+                image: './avatars/bloodborne-doll.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'You can use the doll however you like'
+            },
+            {
+                name: 'Chris Swolefield',
+                thumbnail: './avatarThumbnails/re5Chris.png',
+                image: './avatars/chris-swolefield.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'Punching boulders and getting older'
+            },
+            {
+                name: 'Swolekatamari',
+                thumbnail: './avatarThumbnails/swolekatamari.PNG',
+                image: './avatars/swoleKatamari.gif',
+                author: 'Joberg',
+                authorLink: 'https://twitter.com/alejoberg',
+                modelType: 'swolekat',
+                tagline: 'na na na na na na na watching swolekat stream'
+            },
+            {
+                name: 'Satsuki',
+                thumbnail: './avatarThumbnails/satsuki.png',
+                image: './avatars/satsuki-kiryuuin.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'GAMAGOORI! I\'m H...ungry'
+            },
+            {
+                name: 'Felix Argyle',
+                thumbnail: './avatarThumbnails/felix.png',
+                image: './avatars/felix-argyle.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'kyle',
+                tagline: 'The cutest delivery boy'
+            },
+            {
+                name: 'Pajama Swolekat',
+                thumbnail: './avatarThumbnails/pjswole.png',
+                image: './avatars/sleepy-swolekat.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'Sleepy Eepy UwU'
+            },
+            {
+                name: 'Secretary Bae',
+                thumbnail: './avatarThumbnails/secretary.png',
+                image: './avatars/secretary.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Let\'s go to Atami!'
+            },
+            {
+                name: 'Conductor Swolekat',
+                thumbnail: './avatarThumbnails/conductor.png',
+                image: './avatars/conductor.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'All aboard the swole express!'
+            },
+            {
+                name: 'TetsuBae',
+                thumbnail: './avatarThumbnails/tetsuBae.png',
+                image: './avatars/trainbae.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Do you need another continue?'
+            },
+            {
+                name: 'Mobian Swolekat',
+                thumbnail: './avatarThumbnails/mobian.png',
+                image: './avatars/mobian.gif',
+                author: 'XSweetPassionX',
+                authorLink: 'https://www.deviantart.com/xsweetpassionx/commission/Rigged-Mobian-Model-VTuber-Ready-VRChat-Ready-1646884',
+                modelType: 'swolekat',
+                tagline: 'Gotta go fast!'
+            },
+            {
+                name: 'Phoenix Wright',
+                thumbnail: './avatarThumbnails/phoneixWright.png',
+                image: './avatars/phoenix-wright.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'OBJECTION!'
+            },
+            {
+                name: 'Lara',
+                thumbnail: './avatarThumbnails/laura.png',
+                image: './avatars/laura.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'Raidin tombs and fillin... streams with fun!'
+            },
+            {
+                name: 'Solid Swole',
+                thumbnail: './avatarThumbnails/mgs.png',
+                image: './avatars/solid-swole.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'swolekat',
+                tagline: 'I try to keep sneaking around but I\'m dummy thicc'
+            },
+            {
+                name: 'Arina',
+                thumbnail: './avatarThumbnails/arinabae.png',
+                image: './avatars/arina.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'bae',
+                tagline: 'If your\'re heart isn\'t doki-doking I\'m gonna have to waku waku!'
+            },
+            {
+                name: 'Mobian Swolebae',
+                thumbnail: './avatarThumbnails/mobianswolebae.png',
+                image: './avatars/mobian-swolebae.gif',
+                author: 'XSweetPassionX',
+                authorLink: 'https://www.deviantart.com/xsweetpassionx/commission/Rigged-Mobian-Model-VTuber-Ready-VRChat-Ready-1646884',
+                modelType: 'bae',
+                tagline: 'Like rouge but a cat :3'
+            },
+            {
+                name: 'Glitch_Kitten',
+                thumbnail: './avatarThumbnails/gk.png',
+                image: './avatars/glitch-kitten.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'kyle',
+                tagline: 'I\'m your wifi waifu :3'
+            },
+            {
+                name: 'Stealth Link',
+                thumbnail: './avatarThumbnails/stealthlink.png',
+                image: './avatars/stealthLink.gif',
+                author: 'Emergent Comics',
+                authorLink: 'https://emergentcomics.com',
+                modelType: 'kyle',
+                tagline: 'If thinking doesn\'t work, try force. '
+            },
+        ];
+
+        const updateSelectedAvatar = () => {
+            const AVATAR_DETAIL_ELEMENT = document.getElementById('avatar-detail');
+            AVATAR_DETAIL_ELEMENT.innerHTML = '';
+            if(!selectedAvatar) {
+                AVATAR_DETAIL_ELEMENT.innerHTML = `
+                    <div class="avatar-detail-placeholder">
+                        Select an avatar to learn more!
+                    </div>
+                `;
+                return;
+            }
+            const {name, image, author, authorLink, tagline} = selectedAvatar;
+            AVATAR_DETAIL_ELEMENT.innerHTML = `
+                    <div class="avatar-detail-content">
+                        <div class="avatar-detail-name">
+                            ${name}
+                        </div>
+                        <div class="avatar-detail-author">
+                            by <a href="${authorLink}">${author}</a>
+                        </div>
+                                                <div class="avatar-detail-tagline">
+                            ${tagline}
+                        </div>
+                        <div class="avatar-detail-image">
+                            <img src="${image}" />
+                        </div>
+                    </div>
+                `;
+        };
+
+        const makeAvatarList = () => {
+            const AVATAR_LIST_ELEMENT = document.getElementById('avatars-list');
+            AVATAR_LIST_ELEMENT.innerHTML = '';
+            const filteredAvatars = AVATARS
+                .filter((avatar) => avatar.name.toLowerCase().includes(nameFilter.toLowerCase()))
+                .filter((avatar) => modelFilter === 'none' || avatar.modelType === modelFilter);
+            filteredAvatars.forEach((avatar) => {
+                const avatarElement = document.createElement('div');
+                avatarElement.className = 'avatar';
+                avatarElement.addEventListener('click', () => {
+                    selectedAvatar = avatar;
+                    updateSelectedAvatar();
+                });
+                avatarElement.innerHTML = `
+                    <img class="avatar-thumbnail" src="${avatar.thumbnail}" />
+                `;
+                AVATAR_LIST_ELEMENT.appendChild(avatarElement);
+            });
+        };
+
+        document.getElementById('nameFilterInput').addEventListener('keyup', (e) => {
+            nameFilter = e.target.value;
+            makeAvatarList();
+        });
+
+        document.getElementById('modelFilterSelect').addEventListener('change', (e) => {
+            modelFilter = e.target.value;
+            makeAvatarList();
+        });
+
+        makeAvatarList();
+        updateSelectedAvatar();
+    }());
+</script>
+</body>
+</html>

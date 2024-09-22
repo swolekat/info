@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swolekat's Commands</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../header.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="../images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header>
+    <a href="../">
+        <img src="../images/logo.svg">
+    </a>
+</header>
+<section class="about-section">
+    <div class="about-section-content">
+        <h1>
+            Commands
+        </h1>
+        <p>
+            My stream is VERY interactive. There's a lot of stuff you can do from just typing in the chat!
+        </p>
+        <p>
+            Special people are VIPs and Twitch Subs :3
+        </p>
+    </div>
+</section>
+<section class="commands-list-section">
+    <div class="commands-list-content">
+        <div class="commands-list-controls">
+            <div class="control-row">
+                <input type="text" id="nameFilterInput" placeholder="Type to Filter">
+            </div>
+            <div class="control-row">
+                <select id="permissionFilterSelect">
+                    <option value="none" selected>No Permission Filter</option>
+                    <option value="mod">Mod</option>
+                    <option value="everybody">Everybody</option>
+                    <option value="vipAndSubs">VIP and Subs</option>
+                    <option value="subs">Subs</option>
+                </select>
+                <select id="interactFilterSelect">
+                    <option value="none" selected>No Input Filter</option>
+                    <option value="chat">Chat</option>
+                    <option value="whisper">Whisper</option>
+                    <option value="bits">Bits</option>
+                </select>
+            </div>
+        </div>
+        <div class="command-list" id="commands-list">
+
+        </div>
+    </div>
+
+</section>
+<script>
+    (function(){
+        let nameFilter = '';
+        let permissionFilter = 'none';
+        let interactionFilter = 'none';
+        const PERMISSIONS_TO_NAME_MAP = {
+            'mod': 'MOD',
+            'everybody': 'EVERYBODY',
+            'vipAndSubs': 'SPECIAL',
+            'subs': 'SUBS'
+        };
+
+        // chat | whisper | bits
+
+        const ONE_WEEK_IN_MS = 7 * 24 * 60 * 60 * 1000;
+
+        const COMMANDS = [
+            {
+                name: '!censorGame',
+                description: 'pixelates the game',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!censorVtuber',
+                description: 'pixelates the vtuber',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!gotogames',
+                description: 'change the obs scene to the main game scene',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!gotogym',
+                description: 'change the obs scene to the gym',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!hidePoll',
+                description: 'hides the poll UI',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!hidePrediction',
+                description: 'hides the prediction UI',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!marblesSpin',
+                description: 'spins the marbles wheel',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'necoCheck',
+                description: 'like modcheck but flipped',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!poll question | answer1 | answer two',
+                description: 'makes a poll',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!poll terminate',
+                description: 'ends a poll',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!prediction question | answer1 | answer two',
+                description: 'makes a prediction',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!prediction terminate',
+                description: 'ends a prediction',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!resetBody',
+                description: 'resets body sizes. Sometimes head gets stuck\n',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!resetBubsy',
+                description: 'make bubsy go down.',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!resetCam',
+                description: 'resets camera',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!resetChat',
+                description: 'resets chat',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!resetFood',
+                description: 'resets the food meter',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!resetWater',
+                description: 'resets the water meter',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!setgame',
+                description: 'changes the category',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!text1 through !text20',
+                description: 'puts text on swolekat',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!toggleBaeController',
+                description: 'toggle the controller prop (for bae sized hands)',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!toggleController',
+                description: 'toggle the controller prop',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!togglemkb',
+                description: 'turns mouse and keyboard on/off',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!togglewater',
+                description: 'turns water bottle on/off',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!toggle1weight',
+                description: 'turns the twist weight on/off',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!toggleweight',
+                description: 'turns weights on/off',
+                permissions: 'mod',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!print message',
+                description: 'will print a message on the printer',
+                permissions: 'subs',
+                interactMethod: 'whisper',
+                dateAdded: 0,
+            },
+            {
+                name: '!printAnon message',
+                description: 'will print a message on the printer. Hides your identity >:3',
+                permissions: 'subs',
+                interactMethod: 'whisper',
+                dateAdded: 0,
+            },
+            {
+                name: '!tts',
+                description: 'speak through swolebae.',
+                permissions: 'subs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'bonk bae',
+                description: 'bonk swolebae',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'boop bae',
+                description: 'boop the bae',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'cheese bae',
+                description: 'throw cheese at swolebae!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'headpat bae',
+                description: 'yoshi yoshi',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'aagh',
+                description: 'when you search but you find someone who poops the party',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!baeTitle',
+                description: 'hear one of swolebae\'s colorful titles',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!bleh',
+                description: 'ah.... eto.... bleh!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!bonk',
+                description: 'unleash your punishment on swole',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!bonkYou username',
+                description: 'bonks whoever you put in',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'booba',
+                description: 'I think this is a tea maybe',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'boop',
+                description: 'oh my god it\'s the booper I can\'t believe it\'s the booper',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'brb',
+                description: 'we\'ll be right back!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'cake',
+                description: 'is it your birthday?',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'cat gang',
+                description: 'CAT GANG! CAT GANG!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'chill out',
+                description: 'take a breather',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'choo choo',
+                description: 'twains',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'cone of shame',
+                description: 'thanks. I hate it.',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'cool guy',
+                description: 'even though he\'s a dogg I guess he\'s ok',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'cringey vtuber',
+                description: 'what do they be like?',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!cum',
+                description: 'I regret my entire existence',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'dammit',
+                description: 'ANGRY SISTER!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'don\'t be like this',
+                description: 'take it as a warning',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'E',
+                description: 'why?????',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'effect',
+                description: 'Absolutely mind-boggling  (check discord printer channel)',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'flat',
+                description: 'some say it\'s justice',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!flipCoin',
+                description: 'flip a coin',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'get down',
+                description: 'miku mode',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'go!',
+                description: 'you\'re really excited about trains huh?',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!headpat username',
+                description: 'head pats whoever you put in',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'hm',
+                description: 'you find something in disaster report',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'I\'m horny',
+                description: 'why are you telling me this???',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'lewd',
+                description: 'when the stream is too lewd',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'long',
+                description: 'loong loooooooonng maaaaaaaaaaaaaaaaaaaaaaaaan',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'masterpiece',
+                description: 'GRANNY! YOU GOTTA SEE THIS! (check discord printer channel)\n',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'maxwell',
+                description: 'HE\'S DOING IT!!!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'nice titties',
+                description: 'puma I know you\'re gonna type this.',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!nut',
+                description: 'nut',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'dammit',
+                description: 'ANGRY SISTER!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!poom',
+                description: 'why does this cat sound like a wet fart?',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'popipo',
+                description: 'do NOT popipo the cat!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!sprayBottle',
+                description: 'NO KITTY',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'speedrun',
+                description: 'We\'ll make it into a video one of these days',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'steroids',
+                description: 'I\'m the bigger man with a bigger plan',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'substantial mammalian protuberances',
+                description: 'someone\'s dirty but also has a vocabulary',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'theme song',
+                description: 'the special swolekat theme',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!throwtext',
+                description: 'throw your words at swole',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'to be continued',
+                description: 'after this quick break!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'trex',
+                description: 'turn swole into a fierce dinosaur!',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'twerk',
+                description: 'WHY????',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'wide',
+                description: 'beeg mode',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'what?',
+                description: 'huh?',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!worship',
+                description: 'show your dedication',
+                permissions: 'vipAndSubs',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '(╯°□°)╯︵ ┻━┻',
+                description: 'YOU PUT THAT DOWN!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '3head',
+                description: 'smol brayn',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'a lot of damage',
+                description: 'chainsaw huh?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'all you ever do',
+                description: 'you gonna learn today',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'amogus',
+                description: 'someone\'s looking a little sussy',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '5head',
+                description: 'HUGE brain',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'at my side',
+                description: 'boiz today, the plan is simple',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'are ya winning son?',
+                description: 'well, are ya?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'are you busy tomorrow',
+                description: 'gonna need a bigger park',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'awooga',
+                description: 'eyes coming out of the sockets!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!baka',
+                description: 'have swolebae say baka',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'banana pudding',
+                description: 'did you know it\'s saturday',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'bing chilling',
+                description: '+25 social credit!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'bored',
+                description: 'show how bored you are in chat',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!bosspoem',
+                description: 'RedHotBoss says a poem thought up by an anji main',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'box',
+                description: 'make solid swole gain ultimate stealth',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'bruh',
+                description: 'spongebob here',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'bubsy',
+                description: 'ask the elder cat his wisdom',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'cerveza cristal',
+                description: 'the national drink of Chile and a galaxy far far away',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'cheese',
+                description: '🧀',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'clap',
+                description: 'give swole a round of applause',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'daddy chill',
+                description: 'who\'s that?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'despair',
+                description: 'The Biggest, Most Awful, Most Tragic Event in Human History',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'down bad',
+                description: '（〃・ω・〃）',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'f\'s in the chat',
+                description: 'ripperoni',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'friday',
+                description: 'can you believe it?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'gasp',
+                description: 'clutches perls',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'ghost',
+                description: 'ripperoni swolekat',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!goalProgress',
+                description: 'states how close we are to the current money goal',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'good job',
+                description: '(＾＾)ｂ',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'great job',
+                description: 'Great Job!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'green text',
+                description: 'soon to be a 70 part documentary',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'have confidence',
+                description: 'you\'ll make it through the mario level',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'he can\'t keep getting away with it',
+                description: 'HE CAN\'T KEEP GETTING AWAY WITH IT!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'hold up',
+                description: 'wait a minute',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!hottake',
+                description: 'toasty!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'how did this come to be?',
+                description: 'I\'ve been wondering myself',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!hug',
+                description: 'hug swolekat',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'I wasn\'t ready',
+                description: 'no you were not',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!ganbare',
+                description: 'do your best senpai!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'Geesefall',
+                description: 'fall into the booba',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'good boy',
+                description: 'such a good boy!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!knife',
+                description: 'never give sharp objects to cats',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'laugh',
+                description: 'studio laugh track',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'LAURA',
+                description: 'LAURA!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'let\'s party',
+                description: 'woohoo!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'make it rain',
+                description: 'shower the gato in fictional dollars',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'meow',
+                description: ':3',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'mgaow',
+                description: 'I see you from the doorbell!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'mr. evo',
+                description: 'pro gamer',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'mr president',
+                description: '!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'no confidence',
+                description: 'you didn\'t make it through the mario level',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'objection',
+                description: 'objection!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'oh my gah!',
+                description: 'osaka live reaction!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'owo',
+                description: 'wats dis?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!padoru',
+                description: 'share Christmas cheer!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!pantypeep',
+                description: 'add one to the panty peep counter',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!pat',
+                description: 'give swole a headpat',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'PJSalt',
+                description: 'a way of life',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'punch',
+                description: 'punch swolekat',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'puma jumpscare',
+                description: 'remember, he stole this from me.',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'ran ran ru',
+                description: 'I\'m loving it!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'RainTime',
+                description: 'it\'s a rainy day sunshine girl.',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'sad boi',
+                description: 'imma sad',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'slow motion',
+                description: 'slow all physics down',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'smug uzaki',
+                description: 'oh really senpai?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'sneeze',
+                description: 'bless you!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'soda',
+                description: 'obmana',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'spin',
+                description: 'like a neko baby!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'sussy baka',
+                description: 'obmana',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'swoleswoleswole',
+                description: 'summon feral tts',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'take me away',
+                description: 'go to jail',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'take my money',
+                description: 'throw it',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'thank you jimmy',
+                description: '*thumbsup*',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'thats alright',
+                description: 'goodnight girl',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'that\'s wrong',
+                description: 'NO! THAT\'S WRONG!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!tonguetwister',
+                description: 'nya!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'uber',
+                description: 'where the hell is my uber driver?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!uppies',
+                description: 'give the gremlin what she desires',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!uwu',
+                description: 'make swolebae say uwu',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'waifu alert',
+                description: 'prepare everyone for a wondrous waifu',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'what the dog doing',
+                description: 'who wants gum?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'when will you learn',
+                description: 'that your actions have consequences?',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'write that down',
+                description: 'write it down!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'victory royale',
+                description: '10 kills on the board right now',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!visit',
+                description: 'welcome home!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'zach did you hear that',
+                description: 'Dianne???',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!info',
+                description: 'links you to this site!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!modelguy',
+                description: 'about the model guy who does most of my models.',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!whydoyoulook',
+                description: 'explains why I don\'t look like a swolekat',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!prizes',
+                description: 'explain what the prizes for winning marbles are',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: 'modcheck',
+                description: 'Mods have to respond or swole explodes!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 0,
+            },
+            {
+                name: '!wordwizard word',
+                description: 'start a word guessing game',
+                permissions: 'vipAndSubs',
+                interactMethod: 'whisper',
+                dateAdded: 0,
+            },
+            {
+                name: '!shop number',
+                description: 'start a number guessing game',
+                permissions: 'vipAndSubs',
+                interactMethod: 'whisper',
+                dateAdded: 0,
+            },
+            {
+                name: '69 bits',
+                description: 'surround swole with a waifu harem',
+                permissions: 'everybody',
+                interactMethod: 'bits',
+                dateAdded: 0,
+            },
+            {
+                name: '284 bits',
+                description: 'Send swole a codec message (please include a message)',
+                permissions: 'everybody',
+                interactMethod: 'bits',
+                dateAdded: 0,
+            },
+            {
+                name: '285 bits',
+                description: 'Have swolebae send swolekat a codec message!',
+                permissions: 'everybody',
+                interactMethod: 'bits',
+                dateAdded: 0,
+            },
+            {
+                name: '300 bits',
+                description: 'hit swole with a train',
+                permissions: 'everybody',
+                interactMethod: 'bits',
+                dateAdded: 0,
+            },
+            {
+                name: '420 bits',
+                description: 'mlg video OwO',
+                permissions: 'everybody',
+                interactMethod: 'bits',
+                dateAdded: 0,
+            },
+            {
+                name: '500 bits',
+                description: 'get a preview of the next swolekat episode!',
+                permissions: 'everybody',
+                interactMethod: 'bits',
+                dateAdded: 0,
+            },
+        ];
+
+        const makeCommandList = () => {
+            const COMMANDS_LIST_ELEMENT = document.getElementById('commands-list');
+            COMMANDS_LIST_ELEMENT.innerHTML = '';
+            const now = (new Date()).getTime();
+            const filteredCommands = COMMANDS
+                .filter((command) => command.name.toLowerCase().includes(nameFilter.toLowerCase()))
+                .filter((command) => permissionFilter === 'none' || command.permissions === permissionFilter)
+                .filter((command) => interactionFilter === 'none' || command.interactMethod === interactionFilter);
+            const sortedCommands = filteredCommands.sort((a, b) => {
+                const aName = a.name.replace('!', '').toLowerCase();
+                const bName = b.name.replace('!', '').toLowerCase();
+                if(aName < bName){
+                    return -1;
+                }
+                if(aName > bName) {
+                    return 1;
+                }
+                return 0;
+            });
+            sortedCommands.forEach(({name, description, permissions, interactMethod, dateAdded}) => {
+                const isNew = now - dateAdded < ONE_WEEK_IN_MS;
+                const commandElement = document.createElement('div');
+                commandElement.className = 'command';
+                commandElement.innerHTML = `
+                    <div class="command-name-row">
+                        <div class="name">
+                            ${name}
+                        </div>
+                        <div class="new-marker ${!isNew ? 'hidden' : ''}">
+                            NEW
+                        </div>
+                    </div>
+                    <div class="command-information">
+                        <div class="permissions ${permissions}">
+                            ${PERMISSIONS_TO_NAME_MAP[permissions]}
+                        </div>
+                        <div class="interact ${interactMethod}">
+                            ${interactMethod}
+                        </div>
+
+                        <div class="description">
+                            ${description}
+                        </div>
+                    </div>
+                `;
+                COMMANDS_LIST_ELEMENT.appendChild(commandElement);
+            });
+        };
+
+        document.getElementById('nameFilterInput').addEventListener('keyup', (e) => {
+            nameFilter = e.target.value;
+            makeCommandList();
+        });
+
+        document.getElementById('permissionFilterSelect').addEventListener('change', (e) => {
+            permissionFilter = e.target.value;
+            makeCommandList();
+        });
+
+        document.getElementById('interactFilterSelect').addEventListener('change', (e) => {
+            interactionFilter = e.target.value;
+            makeCommandList();
+        });
+
+        makeCommandList();
+    }());
+</script>
+</body>
+</html>

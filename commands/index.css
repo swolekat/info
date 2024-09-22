@@ -1,0 +1,136 @@
+.commands-list-section {
+    background: #5E5651;
+    padding: 30px;
+    color: #fff;
+}
+
+.commands-list-content {
+    border: 5px solid #fff;
+    padding: 30px;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 16px;
+}
+
+
+.commands-list-controls {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #fff;
+}
+
+.control-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.commands-list-controls input {
+    font-size: 24px;
+    width: 100%;
+}
+
+.commands-list-controls select {
+    width: calc(100% - 5px);
+    font-size: 24px;
+}
+
+.commands-list-controls select:first-child {
+    margin-right: 10px;
+}
+
+.command-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 10px;
+}
+
+.command {
+    padding: 10px;
+    font-size: 24px;
+    align-items: center;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.command-name-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.new-marker {
+    font-size: 16px;
+    background: #589058;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.new-marker.hidden {
+    display: none;
+}
+
+.command-information {
+    display: flex;
+    align-items: center;
+}
+
+.permissions {
+    font-size: 16px;
+    background: #589058;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.permissions.mod {
+    background: #129412;
+}
+
+.permissions.everybody {
+    background: #3570d4;
+}
+
+.permissions.vipAndSubs {
+    background: #d435c7;
+}
+
+.permissions.subs {
+    background: #d43535;
+}
+
+.interact {
+    font-size: 16px;
+    background: #589058;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.interact.chat {
+    background: #7a5890;
+}
+
+.interact.whisper {
+    background: #589081;
+}
+
+.description {
+    font-style: italic;
+    color: #3b3b3b;
+    font-size: 16px;
+}
