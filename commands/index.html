@@ -1346,6 +1346,13 @@
                 interactMethod: 'bits',
                 dateAdded: 0,
             },
+            {
+                name: '!igt or !invalidgateway',
+                description: 'shows the super cool invalid gateway website!',
+                permissions: 'everybody',
+                interactMethod: 'chat',
+                dateAdded: 1727626848192,
+            },
         ];
 
         const makeCommandList = () => {
@@ -1357,6 +1364,14 @@
                 .filter((command) => permissionFilter === 'none' || command.permissions === permissionFilter)
                 .filter((command) => interactionFilter === 'none' || command.interactMethod === interactionFilter);
             const sortedCommands = filteredCommands.sort((a, b) => {
+                const aIsNew = now - a.dateAdded < ONE_WEEK_IN_MS;
+                const bIsNew = now - b.dateAdded < ONE_WEEK_IN_MS;
+                if(aIsNew && !bIsNew){
+                    return -1;
+                }
+                if(!aIsNew && bIsNew){
+                    return 1;
+                }
                 const aName = a.name.replace('!', '').toLowerCase();
                 const bName = b.name.replace('!', '').toLowerCase();
                 if(aName < bName){
