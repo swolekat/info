@@ -50,7 +50,8 @@
                 </select>
                 <select id="interactFilterSelect">
                     <option value="none" selected>No Input Filter</option>
-                    <option value="chat">Chat</option>
+                    <option value="twitchChat">Twitch Chat</option>
+                    <option value="youtubeChat">YouTube Chat</option>
                     <option value="whisper">Whisper</option>
                     <option value="bits">Bits</option>
                 </select>
@@ -704,7 +705,7 @@
                 name: 'are ya winning son?',
                 description: 'well, are ya?',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -795,7 +796,7 @@
                 name: 'clap',
                 description: 'give swole a round of applause',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -809,21 +810,21 @@
                 name: 'despair',
                 description: 'The Biggest, Most Awful, Most Tragic Event in Human History',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'down bad',
                 description: '（〃・ω・〃）',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'f\'s in the chat',
                 description: 'ripperoni',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -914,7 +915,7 @@
                 name: '!hug',
                 description: 'hug swolekat',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -928,7 +929,7 @@
                 name: '!ganbare',
                 description: 'do your best senpai!',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -998,7 +999,7 @@
                 name: 'mr. evo',
                 description: 'pro gamer',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -1040,14 +1041,14 @@
                 name: '!padoru',
                 description: 'share Christmas cheer!',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: '!pantypeep',
                 description: 'add one to the panty peep counter',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -1110,7 +1111,7 @@
                 name: 'smug uzaki',
                 description: 'oh really senpai?',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -1236,14 +1237,14 @@
                 name: 'write that down',
                 description: 'write it down!',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'victory royale',
                 description: '10 kills on the board right now',
                 permissions: 'everybody',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -1352,6 +1353,34 @@
                 dateAdded: 0,
             },
             {
+                name: '!lurk',
+                description: 'say you\'re gonna go afk!',
+                permissions: 'everybody',
+                interactMethods: ['twitchChat', 'youtubeChat'],
+                dateAdded: 0,
+            },
+            {
+                name: 'clip that',
+                description: 'make a twitch clip',
+                permissions: 'everybody',
+                interactMethods: ['twitchChat', 'youtubeChat'],
+                dateAdded: 0,
+            },
+            {
+                name: '!fart',
+                description: 'uh oh, stinky',
+                permissions: 'everybody',
+                interactMethods: ['twitchChat', 'youtubeChat'],
+                dateAdded: 0,
+            },
+            {
+                name: 'goblin',
+                description: 'are they real',
+                permissions: 'everybody',
+                interactMethods: ['twitchChat', 'youtubeChat'],
+                dateAdded: 0,
+            },
+            {
                 name: '!igt or !invalidgateway',
                 description: 'shows the super cool invalid gateway website!',
                 permissions: 'everybody',
@@ -1367,7 +1396,7 @@
             const filteredCommands = COMMANDS
                 .filter((command) => command.name.toLowerCase().includes(nameFilter.toLowerCase()))
                 .filter((command) => permissionFilter === 'none' || command.permissions === permissionFilter)
-                .filter((command) => interactionFilter === 'none' || command.interactMethods === interactionFilter);
+                .filter((command) => interactionFilter === 'none' || command.interactMethods.includes(interactionFilter));
             const sortedCommands = filteredCommands.sort((a, b) => {
                 const aIsNew = now - a.dateAdded < ONE_WEEK_IN_MS;
                 const bIsNew = now - b.dateAdded < ONE_WEEK_IN_MS;
