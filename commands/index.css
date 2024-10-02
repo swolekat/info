@@ -46,9 +46,11 @@
 }
 
 .command {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 10px;
     font-size: 24px;
-    align-items: center;
     border-radius: 5px;
     background: #fff;
     color: #000;
@@ -121,8 +123,12 @@
     text-transform: uppercase;
 }
 
-.interact.chat {
-    background: #7a5890;
+.interact.twitchChat {
+    background: #ac87c3;
+}
+
+.interact.youtubeChat {
+    background: #d57e7e;
 }
 
 .interact.whisper {
@@ -133,4 +139,5 @@
     font-style: italic;
     color: #3b3b3b;
     font-size: 16px;
+    margin-bottom: 10px;
 }
