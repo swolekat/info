@@ -30,7 +30,10 @@
             My stream is VERY interactive. There's a lot of stuff you can do from just typing in the chat!
         </p>
         <p>
-            Special people are VIPs and Twitch Subs :3
+            Special people are VIPs, Twitch Subs, and YouTube Members :3
+        </p>
+        <p>
+            There are <b id="command-number">0</b> commands!
         </p>
     </div>
 </section>
@@ -45,8 +48,9 @@
                     <option value="none" selected>No Permission Filter</option>
                     <option value="mod">Mod</option>
                     <option value="everybody">Everybody</option>
-                    <option value="vipAndSubs">VIP and Subs</option>
+                    <option value="vipAndSubs">VIP and Paying Customers</option>
                     <option value="subs">Subs</option>
+                    <option value="ytMembers">YT Members</option>
                 </select>
                 <select id="interactFilterSelect">
                     <option value="none" selected>No Input Filter</option>
@@ -70,7 +74,7 @@
             'mod': 'MOD',
             'everybody': 'EVERYBODY',
             'vipAndSubs': 'SPECIAL',
-            'subs': 'SUBS'
+            'subs': 'SUBS OR YT MEMBERS',
         };
 
         // twitchChat | youtubeChat | whisper | bits
@@ -285,42 +289,42 @@
                 name: '!tts',
                 description: 'speak through swolebae.',
                 permissions: 'subs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'bonk assistant',
                 description: 'bonk the current assistant',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'boop assistant',
                 description: 'boop the current assistant',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'cheese assistant',
                 description: 'throw cheese at the current assistant!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'headpat assistant',
                 description: 'yoshi yoshi',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'aagh',
                 description: 'when you search but you find someone who poops the party',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -334,14 +338,14 @@
                 name: '!bleh',
                 description: 'ah.... eto.... bleh!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: '!bonk',
                 description: 'unleash your punishment on swole',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -355,112 +359,112 @@
                 name: 'booba',
                 description: 'I think this is a tea maybe',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'boop',
                 description: 'oh my god it\'s the booper I can\'t believe it\'s the booper',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'brb',
                 description: 'we\'ll be right back!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'cake',
                 description: 'is it your birthday?',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'cat gang',
                 description: 'CAT GANG! CAT GANG!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'chill out',
                 description: 'take a breather',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'choo choo',
                 description: 'twains',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'cone of shame',
                 description: 'thanks. I hate it.',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'cool guy',
                 description: 'even though he\'s a dogg I guess he\'s ok',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'cringey vtuber',
                 description: 'what do they be like?',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: '!cum',
                 description: 'I regret my entire existence',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'dammit',
                 description: 'ANGRY SISTER!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'don\'t be like this',
                 description: 'take it as a warning',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'E',
                 description: 'why?????',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'effect',
                 description: 'Absolutely mind-boggling  (check discord printer channel)',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'flat',
                 description: 'some say it\'s justice',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -474,14 +478,14 @@
                 name: 'get down',
                 description: 'miku mode',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'go!',
                 description: 'you\'re really excited about trains huh?',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -495,42 +499,42 @@
                 name: 'hm',
                 description: 'you find something in disaster report',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'I\'m horny',
                 description: 'why are you telling me this???',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'lewd',
                 description: 'when the stream is too lewd',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'long',
                 description: 'loong loooooooonng maaaaaaaaaaaaaaaaaaaaaaaaan',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'masterpiece',
                 description: 'GRANNY! YOU GOTTA SEE THIS! (check discord printer channel)\n',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'maxwell',
                 description: 'HE\'S DOING IT!!!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -544,56 +548,56 @@
                 name: '!nut',
                 description: 'nut',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: '!poom',
                 description: 'why does this cat sound like a wet fart?',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'popipo',
                 description: 'do NOT popipo the cat!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: '!sprayBottle',
                 description: 'NO KITTY',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'speedrun',
                 description: 'We\'ll make it into a video one of these days',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'steroids',
                 description: 'I\'m the bigger man with a bigger plan',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'substantial mammalian protuberances',
                 description: 'someone\'s dirty but also has a vocabulary',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'theme song',
                 description: 'the special swolekat theme',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -607,42 +611,42 @@
                 name: 'to be continued',
                 description: 'after this quick break!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'trex',
                 description: 'turn swole into a fierce dinosaur!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'twerk',
                 description: 'WHY????',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'wide',
                 description: 'beeg mode',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: 'what?',
                 description: 'huh?',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
                 name: '!worship',
                 description: 'show your dedication',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -1048,7 +1052,7 @@
                 name: '!pat',
                 description: 'give swole a headpat',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -1202,7 +1206,7 @@
                 name: '!uwu',
                 description: 'make swolebae say uwu',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 0,
             },
             {
@@ -1447,7 +1451,7 @@
                 name: 'goo bae',
                 description: 'unload the mysterious goo on swolebae!',
                 permissions: 'vipAndSubs',
-                interactMethods: ['twitchChat'],
+                interactMethods: ['twitchChat', 'youtubeChat'],
                 dateAdded: 1728525944801,
             },
             {
@@ -1626,7 +1630,13 @@
             makeCommandList();
         });
 
+        const updateCommandCount = () => {
+            const element = document.getElementById('command-number');
+            element.innerHTML = COMMANDS.length;
+        };
+
         makeCommandList();
+        updateCommandCount();
     }());
 </script>
 </body>
