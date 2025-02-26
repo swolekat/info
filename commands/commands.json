@@ -1,0 +1,2042 @@
+[
+  {
+    "name": "!censorGame",
+    "description": "pixelates the game",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!censorVtuber",
+    "description": "pixelates the vtuber",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!gotogames",
+    "description": "change the obs scene to the main game scene",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!gotogym",
+    "description": "change the obs scene to the gym",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!hidePoll",
+    "description": "hides the poll UI",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!hidePrediction",
+    "description": "hides the prediction UI",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!marblesSpin",
+    "description": "spins the marbles wheel",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "necoCheck",
+    "description": "like modcheck but flipped",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!poll question | answer1 | answer two",
+    "description": "makes a poll",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!poll terminate",
+    "description": "ends a poll",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!prediction question | answer1 | answer two",
+    "description": "makes a prediction",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!prediction terminate",
+    "description": "ends a prediction",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!resetBody",
+    "description": "resets body sizes. Sometimes head gets stuck\n",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!resetBubsy",
+    "description": "make bubsy go down.",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!resetCam",
+    "description": "resets camera",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!resetChat",
+    "description": "resets chat",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!resetFood",
+    "description": "resets the food meter",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!resetWater",
+    "description": "resets the water meter",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!setgame",
+    "description": "changes the category",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!text1 through !text20",
+    "description": "puts text on swolekat",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!toggleBaeController",
+    "description": "toggle the controller prop (for bae sized hands)",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!toggleController",
+    "description": "toggle the controller prop",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!togglemkb",
+    "description": "turns mouse and keyboard on/off",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!togglewater",
+    "description": "turns water bottle on/off",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!toggle1weight",
+    "description": "turns the twist weight on/off",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!toggleweight",
+    "description": "turns weights on/off",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!print message",
+    "description": "will print a message on the printer",
+    "permissions": "subs",
+    "interactMethods": [
+      "whisper"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!printAnon message",
+    "description": "will print a message on the printer. Hides your identity >:3",
+    "permissions": "subs",
+    "interactMethods": [
+      "whisper"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!tts",
+    "description": "speak through swolebae.",
+    "permissions": "subs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "bonk assistant",
+    "description": "bonk the current assistant",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "boop assistant",
+    "description": "boop the current assistant",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "cheese assistant",
+    "description": "throw cheese at the current assistant!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "headpat assistant",
+    "description": "yoshi yoshi",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "aagh",
+    "description": "when you search but you find someone who poops the party",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!baeTitle",
+    "description": "hear one of swolebae's colorful titles",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!bleh",
+    "description": "ah.... eto.... bleh!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!bonk",
+    "description": "unleash your punishment on swole",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!bonkYou username",
+    "description": "bonks whoever you put in",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "booba",
+    "description": "I think this is a tea maybe",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "boop",
+    "description": "oh my god it's the booper I can't believe it's the booper",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "brb",
+    "description": "we'll be right back!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "cake",
+    "description": "is it your birthday?",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "cat gang",
+    "description": "CAT GANG! CAT GANG!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "chill out",
+    "description": "take a breather",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "choo choo",
+    "description": "twains",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "cone of shame",
+    "description": "thanks. I hate it.",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "cool guy",
+    "description": "even though he's a dogg I guess he's ok",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "cringey vtuber",
+    "description": "what do they be like?",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!cum",
+    "description": "I regret my entire existence",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "dammit",
+    "description": "ANGRY SISTER!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "don't be like this",
+    "description": "take it as a warning",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "E",
+    "description": "why?????",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "effect",
+    "description": "Absolutely mind-boggling  (check discord printer channel)",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "flat",
+    "description": "some say it's justice",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!flipCoin",
+    "description": "flip a coin",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "get down",
+    "description": "miku mode",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "go!",
+    "description": "you're really excited about trains huh?",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!headpat username",
+    "description": "head pats whoever you put in",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "hm",
+    "description": "you find something in disaster report",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "I'm horny",
+    "description": "why are you telling me this???",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "lewd",
+    "description": "when the stream is too lewd",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "long",
+    "description": "loong loooooooonng maaaaaaaaaaaaaaaaaaaaaaaaan",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "masterpiece",
+    "description": "GRANNY! YOU GOTTA SEE THIS! (check discord printer channel)\n",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "maxwell",
+    "description": "HE'S DOING IT!!!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "nice titties",
+    "description": "puma I know you're gonna type this.",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!nut",
+    "description": "nut",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!poom",
+    "description": "why does this cat sound like a wet fart?",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "popipo",
+    "description": "do NOT popipo the cat!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!sprayBottle",
+    "description": "NO KITTY",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "speedrun",
+    "description": "We'll make it into a video one of these days",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "steroids",
+    "description": "I'm the bigger man with a bigger plan",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "substantial mammalian protuberances",
+    "description": "someone's dirty but also has a vocabulary",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "theme song",
+    "description": "the special swolekat theme",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!throwtext",
+    "description": "throw your words at swole",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "to be continued",
+    "description": "after this quick break!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "trex",
+    "description": "turn swole into a fierce dinosaur!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "twerk",
+    "description": "WHY????",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "wide",
+    "description": "beeg mode",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "what?",
+    "description": "huh?",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!worship",
+    "description": "show your dedication",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "(╯°□°)╯︵ ┻━┻",
+    "description": "YOU PUT THAT DOWN!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "3head",
+    "description": "smol brayn",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "a lot of damage",
+    "description": "chainsaw huh?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "all you ever do",
+    "description": "you gonna learn today",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "amogus",
+    "description": "someone's looking a little sussy",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "5head",
+    "description": "HUGE brain",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "at my side",
+    "description": "boiz today, the plan is simple",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "are ya winning son?",
+    "description": "well, are ya?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "are you busy tomorrow",
+    "description": "gonna need a bigger park",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "awooga",
+    "description": "eyes coming out of the sockets!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!baka",
+    "description": "have swolebae say baka",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "banana pudding",
+    "description": "did you know it's saturday",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "bing chilling",
+    "description": "+25 social credit!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "bored",
+    "description": "show how bored you are in chat",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!bosspoem",
+    "description": "RedHotBoss says a poem thought up by an anji main",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "box",
+    "description": "make solid swole gain ultimate stealth",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "bruh",
+    "description": "spongebob here",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "bubsy",
+    "description": "ask the elder cat his wisdom",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "cerveza cristal",
+    "description": "the national drink of Chile and a galaxy far far away",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "cheese",
+    "description": "🧀",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "clap",
+    "description": "give swole a round of applause",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "daddy chill",
+    "description": "who's that?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "despair",
+    "description": "The Biggest, Most Awful, Most Tragic Event in Human History",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "down bad",
+    "description": "（〃・ω・〃）",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "f's in the chat",
+    "description": "ripperoni",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "friday",
+    "description": "can you believe it?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "gasp",
+    "description": "clutches pearls",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "ghost",
+    "description": "ripperoni swolekat",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!goalProgress",
+    "description": "states how close we are to the current money goal",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "good job",
+    "description": "(＾＾)ｂ",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "great job",
+    "description": "Great Job!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "green text",
+    "description": "soon to be a 70 part documentary",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "have confidence",
+    "description": "you'll make it through the mario level",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "he can't keep getting away with it",
+    "description": "HE CAN'T KEEP GETTING AWAY WITH IT!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "hold up",
+    "description": "wait a minute",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!hottake",
+    "description": "toasty!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "how did this come to be?",
+    "description": "I've been wondering myself",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!hug",
+    "description": "hug swolekat",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "I wasn't ready",
+    "description": "no you were not",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!ganbare",
+    "description": "do your best senpai!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "Geesefall",
+    "description": "fall into the booba",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "good boy",
+    "description": "such a good boy!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!knife",
+    "description": "never give sharp objects to cats",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "laugh",
+    "description": "studio laugh track",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "LAURA",
+    "description": "LAURA!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "let's party",
+    "description": "woohoo!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "make it rain",
+    "description": "shower the gato in fictional dollars",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "meow",
+    "description": ":3",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "mgaow",
+    "description": "I see you from the doorbell!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "mr. evo",
+    "description": "pro gamer",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "mr president",
+    "description": "!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "no confidence",
+    "description": "you didn't make it through the mario level",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "objection",
+    "description": "objection!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "oh my gah!",
+    "description": "osaka live reaction!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "owo",
+    "description": "wats dis?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!padoru",
+    "description": "share Christmas cheer!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!pantypeep",
+    "description": "add one to the panty peep counter",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!pat",
+    "description": "give swole a headpat",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "PJSalt",
+    "description": "a way of life",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "punch",
+    "description": "punch swolekat",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "puma jumpscare",
+    "description": "remember, he stole this from me.",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "ran ran ru",
+    "description": "I'm loving it!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "RainTime",
+    "description": "it's a rainy day sunshine girl.",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "sad boi",
+    "description": "imma sad",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "slow motion",
+    "description": "slow all physics down",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "smug uzaki",
+    "description": "oh really senpai?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "sneeze",
+    "description": "bless you!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "soda",
+    "description": "obmana",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "spin",
+    "description": "like a neko baby!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "sussy baka",
+    "description": "obmana",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "swoleswoleswole",
+    "description": "summon feral tts",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "take me away",
+    "description": "go to jail",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "take my money",
+    "description": "throw it",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "thank you jimmy",
+    "description": "*thumbsup*",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "thats alright",
+    "description": "goodnight girl",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "that's wrong",
+    "description": "NO! THAT'S WRONG!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!tonguetwister",
+    "description": "nya!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "uber",
+    "description": "where the hell is my uber driver?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!uppies",
+    "description": "give the gremlin what she desires",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!uwu",
+    "description": "make swolebae say uwu",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "waifu alert",
+    "description": "prepare everyone for a wondrous waifu",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "what the dog doing",
+    "description": "who wants gum?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "when will you learn",
+    "description": "that your actions have consequences?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "write that down",
+    "description": "write it down!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "victory royale",
+    "description": "10 kills on the board right now",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!visit",
+    "description": "welcome home!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "zach did you hear that",
+    "description": "Dianne???",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!info",
+    "description": "links you to this site!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!modelguy",
+    "description": "about the model guy who does most of my models.",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!whydoyoulook",
+    "description": "explains why I don't look like a swolekat",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!prizes",
+    "description": "explain what the prizes for winning marbles are",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "modcheck",
+    "description": "Mods have to respond or swole explodes!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!wordwizard word",
+    "description": "start a word guessing game",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "whisper"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!shop number",
+    "description": "start a number guessing game",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "whisper"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "69 bits",
+    "description": "surround swole with a waifu harem",
+    "permissions": "everybody",
+    "interactMethods": [
+      "bits"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "284 bits",
+    "description": "Send swole a codec message (please include a message)",
+    "permissions": "everybody",
+    "interactMethods": [
+      "bits"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "285 bits",
+    "description": "Have swolebae send swolekat a codec message!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "bits"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "300 bits",
+    "description": "hit swole with a train",
+    "permissions": "everybody",
+    "interactMethods": [
+      "bits"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "420 bits",
+    "description": "mlg video OwO",
+    "permissions": "everybody",
+    "interactMethods": [
+      "bits"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "500 bits",
+    "description": "get a preview of the next swolekat episode!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "bits"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!lurk",
+    "description": "say you're gonna go afk!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "clip that",
+    "description": "make a twitch clip",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!fart",
+    "description": "uh oh, stinky",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "goblin",
+    "description": "are they real",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!addQuote *",
+    "description": "add a quote to the system",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!explosion",
+    "description": "explode swole",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "I heard that",
+    "description": "I HEARD THAT!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "nice and friendly",
+    "description": "this pump comes with a truck",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "oh no",
+    "description": "how could you do this to knuckles?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "policeman",
+    "description": "moshi moshi",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 0
+  },
+  {
+    "name": "!igt or !invalidgateway",
+    "description": "shows the super cool invalid gateway website!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1727626848192
+  },
+  {
+    "name": "!muteswolebae",
+    "description": "mutes swolebae",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1727994819117
+  },
+  {
+    "name": "!unmuteswolebae",
+    "description": "unmutes swolebae",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1727994819117
+  },
+  {
+    "name": "!pauseReminder",
+    "description": "pauses the category reminder",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1727994819117
+  },
+  {
+    "name": "goo bae",
+    "description": "unload the mysterious goo on swolebae!",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1728525944801
+  },
+  {
+    "name": "!modGameAdd *",
+    "description": "adds game to game request wheel",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1728750103581
+  },
+  {
+    "name": "!modGameRemove *",
+    "description": "remove game to game request wheel",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1728750103581
+  },
+  {
+    "name": "!modGameSpin",
+    "description": "spins the game request wheel",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1728750103581
+  },
+  {
+    "name": "!meme",
+    "description": "get a random swolekat meme on stream!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1728750103581
+  },
+  {
+    "name": "child support",
+    "description": "oh god why are there so many of them?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1729782549917
+  },
+  {
+    "name": "this is what we do",
+    "description": "in the feline booty inspector",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1729782549917
+  },
+  {
+    "name": "!clearProps",
+    "description": "clear all the props",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1729919028757
+  },
+  {
+    "name": "listen",
+    "description": "I'm all ears",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1730963246266
+  },
+  {
+    "name": "!currentAssistant",
+    "description": "says who the current assistant is",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1732463097128
+  },
+  {
+    "name": "barrel roll",
+    "description": "yes slippi",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1733600203945
+  },
+  {
+    "name": "!sayquote",
+    "description": "say a random swolekat quote",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1733600203945
+  },
+  {
+    "name": "!changeAssistant *",
+    "description": "changes the assistant to whoever you say",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1734413697055
+  },
+  {
+    "name": "!level",
+    "description": "See what level you are",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1735538733905
+  },
+  {
+    "name": "!xp *",
+    "description": "See how much xp you (or another user) has",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1735538733905
+  }
+]
