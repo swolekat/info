@@ -2038,5 +2038,14 @@
       "twitchChat"
     ],
     "dateAdded": 1735538733905
+  },
+  {
+    "name": "!tap",
+    "description": "Tap swole on the shoulder",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1740678750323
   }
 ]
