@@ -51,3 +51,7 @@ p {
     object-fit: contain;
     width: 100%;
 }
+
+a {
+    color: #fff;
+}
