@@ -1,0 +1,770 @@
+[
+  {
+    "name": "Swolekat 1.0",
+    "thumbnail": "./avatarThumbnailsSmall/swolekat1.0.webp",
+    "image": "./avatars/swolekat-10.gif",
+    "author": "歩留マリ",
+    "authorLink": "https://twitter.com/budo_mari",
+    "modelType": "swolekat",
+    "tagline": "The OG",
+    "vnyanName": "swolekat_1_0.vrm"
+  },
+  {
+    "name": "BusinessKat",
+    "thumbnail": "./avatarThumbnailsSmall/businessKat1.0.webp",
+    "image": "./avatars/businesskat-10.gif",
+    "author": "歩留マリ",
+    "authorLink": "https://twitter.com/budo_mari",
+    "modelType": "swolekat",
+    "tagline": "How business was done in the old days.",
+    "vnyanName": "business cat.vrm"
+  },
+  {
+    "name": "Swolekat 2.0",
+    "thumbnail": "./avatarThumbnailsSmall/sk2.5.webp",
+    "image": "./avatars/swolekat-20.gif",
+    "author": "pedrocrispa",
+    "authorLink": "https://www.fiverr.com/pedrocrispa",
+    "modelType": "swolekat",
+    "tagline": "Big Buff Cat Man",
+    "vnyanName": "SWOLEKAT2.6_BONE ADJ_COMPLETE.VRM"
+  },
+  {
+    "name": "Swolebae 1.0",
+    "thumbnail": "./avatarThumbnailsSmall/swolebae1.0.webp",
+    "image": "./avatars/swolebae-10.gif",
+    "author": "mgl_vr",
+    "authorLink": "https://www.fiverr.com/mgl_vr",
+    "modelType": "bae",
+    "tagline": "The original waifu",
+    "vnyanName": "swolebae_1_0.vrm"
+  },
+  {
+    "name": "Christmas Swolebae 1.0",
+    "thumbnail": "./avatarThumbnailsSmall/christmasSwolebae1.0.webp",
+    "image": "./avatars/christmas-swolebae-10.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Vintage Padoru",
+    "vnyanName": "swolebae_1_0_christmas.vrm"
+  },
+  {
+    "name": "Skeleton",
+    "thumbnail": "./avatarThumbnailsSmall/skeleton.webp",
+    "image": "./avatars/skeleton.gif",
+    "tagline": "Spooky and scary",
+    "hidden": true,
+    "vnyanName": "skeleton.vrm"
+  },
+  {
+    "name": "Retro Swolekat",
+    "thumbnail": "./avatarThumbnailsSmall/retroSwolekat.webp",
+    "image": "./avatars/retro-swolekat.gif",
+    "author": "nanana_na_nashi",
+    "authorLink": "https://www.fiverr.com/nanana_na_nashi",
+    "modelType": "swolekat",
+    "tagline": "Low Poly Muscle Cat",
+    "vnyanName": "SwoleKat_retro.vrm"
+  },
+  {
+    "name": "Swolekid",
+    "thumbnail": "./avatarThumbnailsSmall/swolekid.webp",
+    "image": "./avatars/swolekid.gif",
+    "author": "CandyHiDRA",
+    "authorLink": "https://twitter.com/CandyHiDRA1",
+    "modelType": "swolekat",
+    "tagline": "Most kawaii kitten",
+    "vnyanName": "Swolekat Chibi.vrm"
+  },
+  {
+    "name": "Swolebae 2.0",
+    "thumbnail": "./avatarThumbnailsSmall/swolebae2.0.webp",
+    "image": "./avatars/swolebae-20.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Waifu perfection re-imagined",
+    "vnyanName": "swolebae_2_0.vrm"
+  },
+  {
+    "name": "Maid Swolebae",
+    "thumbnail": "./avatarThumbnailsSmall/maid.webp",
+    "image": "./avatars/maidbae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Here to clean up the chat",
+    "vnyanName": "swolebae_2_0-maid.vrm"
+  },
+  {
+    "name": "Schoolgirl Swolebae",
+    "thumbnail": "./avatarThumbnailsSmall/schoolgirl.webp",
+    "image": "./avatars/schoolgirl-swolebae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Just like in one of my animes",
+    "vnyanName": "swolebae_2_0-school.vrm"
+  },
+  {
+    "name": "Asuka",
+    "thumbnail": "./avatarThumbnailsSmall/asuka.webp",
+    "image": "./avatars/asuka.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "It's not like I want you to pick me or anything",
+    "vnyanName": "SWOLEKAT_ASUKA.vrm"
+  },
+  {
+    "name": "Rei",
+    "thumbnail": "./avatarThumbnailsSmall/rei.webp",
+    "image": "./avatars/rei.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Understood.",
+    "vnyanName": "SWOLEKAT_REI.vrm"
+  },
+  {
+    "name": "Chibi Swolebae",
+    "thumbnail": "./avatarThumbnailsSmall/chibiSwolebae.webp",
+    "image": "./avatars/chibi-swolebae.gif",
+    "author": "CandyHiDRA",
+    "authorLink": "https://twitter.com/CandyHiDRA1",
+    "modelType": "bae",
+    "tagline": "Chibi with the biggest bitties",
+    "vnyanName": "swolebae chibi.vrm"
+  },
+  {
+    "name": "Retro Swolebae",
+    "thumbnail": "./avatarThumbnailsSmall/retroSwolebae.webp",
+    "image": "./avatars/retro-swolebae.gif",
+    "author": "nanana_na_nashi",
+    "authorLink": "https://www.fiverr.com/nanana_na_nashi",
+    "modelType": "bae",
+    "tagline": "Better than Laura",
+    "vnyanName": "retro swolebae.vrm"
+  },
+  {
+    "name": "Subnautica Swolebae",
+    "thumbnail": "./avatarThumbnailsSmall/subnautica.webp",
+    "image": "./avatars/subnautica.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Subzero Waifu",
+    "vnyanName": "SWOLEKAT_SUBNAUTICA.vrm"
+  },
+  {
+    "name": "Nunbae",
+    "thumbnail": "./avatarThumbnailsSmall/nunbae.webp",
+    "image": "./avatars/nunbae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "You definitely need Jesus",
+    "vnyanName": "SWOLEKAT_NUN.vrm"
+  },
+  {
+    "name": "Gothbae",
+    "thumbnail": "./avatarThumbnailsSmall/gothbae.webp",
+    "image": "./avatars/gothbae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Ebony Dark'ness Dementia Raven Way",
+    "vnyanName": "GOTHBAE1.1_COMPLETE.vrm"
+  },
+  {
+    "name": "T-Shirt Swolekat",
+    "thumbnail": "./avatarThumbnailsSmall/tshirtSwolekat.webp",
+    "image": "./avatars/tshirt-swolekat.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "Nipples covered and ready for action!",
+    "vnyanName": "SWOLEKAT_TSHIRT.vrm"
+  },
+  {
+    "name": "BusinessKat 2.0",
+    "thumbnail": "./avatarThumbnailsSmall/businessKat2.0.webp",
+    "image": "./avatars/business-kat-20.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "The new era of synergy!",
+    "vnyanName": "2_5-SWOLEKAT_REDWINE SUIT.vrm"
+  },
+  {
+    "name": "Western Bae",
+    "thumbnail": "./avatarThumbnailsSmall/westernBae.webp",
+    "image": "./avatars/westernBae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Y'all best behave. There's a new sherrif in town",
+    "vnyanName": "SWOLEBAE_4TH-OF-JULY.vrm"
+  },
+  {
+    "name": "Penny",
+    "thumbnail": "./avatarThumbnailsSmall/penny.webp",
+    "image": "./avatars/penny.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Got any crops for me?",
+    "vnyanName": "SWOLEBAE_PENNY.vrm"
+  },
+  {
+    "name": "Swoleloaf",
+    "thumbnail": "./avatarThumbnailsSmall/swoleloaf.webp",
+    "image": "./avatars/swoleloaf.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "15 grams of protein!",
+    "vnyanName": "SWOLEKAT_BREAD.vrm"
+  },
+  {
+    "name": "Baeloaf",
+    "thumbnail": "./avatarThumbnailsSmall/baeLoaf.webp",
+    "image": "./avatars/baeloaf.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "100% pure honey bun!",
+    "vnyanName": "SWOLEBAE_BREAD.vrm"
+  },
+  {
+    "name": "Gothbae Dress",
+    "thumbnail": "./avatarThumbnailsSmall/gothDress.webp",
+    "image": "./avatars/gothbae-dress.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Mistress of the Chat OwO",
+    "vnyanName": "SWOLEBAE_GOTH2.vrm"
+  },
+  {
+    "name": "Maika",
+    "thumbnail": "./avatarThumbnailsSmall/maika.webp",
+    "image": "./avatars/maika.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Smile",
+    "vnyanName": "SWOLEBAE_BLEND_S_PINK.vrm"
+  },
+  {
+    "name": "Kaho",
+    "thumbnail": "./avatarThumbnailsSmall/kaho.webp",
+    "image": "./avatars/kaho.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Sweet",
+    "vnyanName": "SWOLEBAE_BLEND_S_BLUE.vrm"
+  },
+  {
+    "name": "Mafuyu",
+    "thumbnail": "./avatarThumbnailsSmall/mafuyu.webp",
+    "image": "./avatars/mafuyu.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Sister",
+    "vnyanName": "SWOLEBAE_BLEND_S_YELLOW.vrm"
+  },
+  {
+    "name": "Miu",
+    "thumbnail": "./avatarThumbnailsSmall/miu.webp",
+    "image": "./avatars/miu.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Sadistic",
+    "vnyanName": "SWOLEBAE_BLEND_S_PURPLE.vrm"
+  },
+  {
+    "name": "Hideri",
+    "thumbnail": "./avatarThumbnailsSmall/hideri.webp",
+    "image": "./avatars/hideri.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Surprise",
+    "vnyanName": "SWOLEBAE_BLEND_S_GREEN.vrm"
+  },
+  {
+    "name": "SwoleServer",
+    "thumbnail": "./avatarThumbnailsSmall/waiterSwolekatA.webp",
+    "image": "./avatars/waiter-swolekat-version-A.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "We are...",
+    "vnyanName": "WAITER-V1-COMPLETE.vrm"
+  },
+  {
+    "name": "SwoleServer Alt",
+    "thumbnail": "./avatarThumbnailsSmall/waiterSwolekatB.webp",
+    "image": "./avatars/waiter-swolekat-version-B.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "... Stile!",
+    "vnyanName": "WAITER-V2-COMPLETE.vrm"
+  },
+  {
+    "name": "Emerald Herald",
+    "thumbnail": "./avatarThumbnailsSmall/emeraldHerald.webp",
+    "image": "./avatars/emerald-herald.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Seek Seek Lest",
+    "vnyanName": "SWOLEBAE_EMERALD HERALD.vrm"
+  },
+  {
+    "name": "Swolekat 1.0 Black",
+    "thumbnail": "./avatarThumbnailsSmall/swolekat1.0Black.webp",
+    "image": "./avatars/swolekat-10-black.gif",
+    "author": "歩留マリ",
+    "authorLink": "https://twitter.com/budo_mari",
+    "modelType": "swolekat",
+    "tagline": "Black version of the classic",
+    "vnyanName": "swolekat_1_0_black.vrm"
+  },
+  {
+    "name": "Swolekat 1.0 White",
+    "thumbnail": "./avatarThumbnailsSmall/swolekat1.0White.webp",
+    "image": "./avatars/swolekat-10-black.gif",
+    "author": "歩留マリ",
+    "authorLink": "https://twitter.com/budo_mari",
+    "modelType": "swolekat",
+    "tagline": "White version of the classic",
+    "vnyanName": "swolekat_1_0_white.vrm"
+  },
+  {
+    "name": "Lady D",
+    "thumbnail": "./avatarThumbnailsSmall/ladyD.webp",
+    "image": "./avatars/lady-d.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "7ft tall dommy mommy OwO",
+    "vnyanName": "SBAE_LADY-D.vrm"
+  },
+  {
+    "name": "ThiccBae",
+    "thumbnail": "./avatarThumbnailsSmall/thiccbae.webp",
+    "image": "./avatars/thiccbae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Gaddamn she thick",
+    "vnyanName": "ALTBAE_BLUE_WHITE-WO2_0.vrm"
+  },
+  {
+    "name": "GothiccBae",
+    "thumbnail": "./avatarThumbnailsSmall/gothicc.webp",
+    "image": "./avatars/gothiccbae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Gaddamn she thick (and goth)",
+    "vnyanName": "ALTBAE_GOTH-WO2_0.vrm"
+  },
+  {
+    "name": "Kyle",
+    "thumbnail": "./avatarThumbnailsSmall/kyle.webp",
+    "image": "./avatars/kyle.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "kyle",
+    "tagline": "Femboi swolekat from another dimension!",
+    "vnyanName": "KYLE1.1 - EAR AND TAIL ADJUST.vrm"
+  },
+  {
+    "name": "Komaru",
+    "thumbnail": "./avatarThumbnailsSmall/komaru.webp",
+    "image": "./avatars/komaru.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "That's one crazy bear!",
+    "vnyanName": "SWOKEBAE_SCHOOL-V2.vrm"
+  },
+  {
+    "name": "Christmas Swolebae 2.0",
+    "thumbnail": "./avatarThumbnailsSmall/christmasSwolebae2.0.webp",
+    "image": "./avatars/christmas-swolebae-20.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "UPGRADED PADORU",
+    "vnyanName": "SWOLEBAE_CHRISTAMS-2022.vrm"
+  },
+  {
+    "name": "Baiken",
+    "thumbnail": "./avatarThumbnailsSmall/baiken2.webp",
+    "image": "./avatars/baiken.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "One arm swordswoman",
+    "vnyanName": "SBAE_BAIKEN-COMPLETE.vrm"
+  },
+  {
+    "name": "Cowbae",
+    "thumbnail": "./avatarThumbnailsSmall/cowbae2.webp",
+    "image": "./avatars/cowbae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Be careful for unexpected moovements",
+    "vnyanName": "COWBAE-2_0.vrm"
+  },
+  {
+    "name": "Recette",
+    "thumbnail": "./avatarThumbnailsSmall/recette.webp",
+    "image": "./avatars/recette.gif",
+    "author": "CandyHiDRA",
+    "authorLink": "https://twitter.com/CandyHiDRA1",
+    "modelType": "bae",
+    "tagline": "Want to buy something from my item shop?",
+    "vnyanName": "recette.vrm"
+  },
+  {
+    "name": "Uzaki",
+    "thumbnail": "./avatarThumbnailsSmall/uzaki.webp",
+    "image": "./avatars/uzaki.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "You like me, don't you senpai!",
+    "vnyanName": "SUGOIDEKAI-V03.vrm"
+  },
+  {
+    "name": "Grungebae",
+    "thumbnail": "./avatarThumbnailsSmall/grungeBae.webp",
+    "image": "./avatars/grungebae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Wake up honey! Time to mosh!",
+    "vnyanName": "ALTGRUNGE_VSF-COMPLETE.vsfavatar"
+  },
+  {
+    "name": "Maid Loaf",
+    "thumbnail": "./avatarThumbnailsSmall/maidloaf.webp",
+    "image": "./avatars/maidloaf.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Da service loaf UwU",
+    "vnyanName": "SBAE_BREAD-MAID.vrm"
+  },
+  {
+    "name": "Swolebae 3.0",
+    "thumbnail": "./avatarThumbnailsSmall/swolebae3.0.webp",
+    "image": "./avatars/swolebae-30.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Mo bae mo booty",
+    "vnyanName": "SBAE-3_1 - RED BIKINI_COMPLETE.vrm"
+  },
+  {
+    "name": "BAEyonetta",
+    "thumbnail": "./avatarThumbnailsSmall/baeyonetta.webp",
+    "image": "./avatars/baeyonetta.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Charachter Action Waifu",
+    "vnyanName": "SBAE_BAYONETTA-1.vrm"
+  },
+  {
+    "name": "Gothloaf",
+    "thumbnail": "./avatarThumbnailsSmall/gothLoaf.webp",
+    "image": "./avatars/goth-loaf.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Bred out of pure darkness",
+    "vnyanName": "GOTHLOAF_v1.vrm"
+  },
+  {
+    "name": "Bunny Bae",
+    "thumbnail": "./avatarThumbnailsSmall/bunnyBae.webp",
+    "image": "./avatars/bunnybae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "No sword riding though",
+    "vnyanName": "SBAE3.0_BUNNYSUIT_V1.vrm"
+  },
+  {
+    "name": "Astolfo",
+    "thumbnail": "./avatarThumbnailsSmall/astolfo.webp",
+    "image": "./avatars/astolfo.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "kyle",
+    "tagline": "Cutest Femboy Ever UwU!",
+    "vnyanName": "KYLE_ASTOLFO_V1.vrm"
+  },
+  {
+    "name": "Rosa",
+    "thumbnail": "./avatarThumbnailsSmall/rosa.webp",
+    "image": "./avatars/rosa.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Cecil's Waifu",
+    "vnyanName": "SBAE_ROSA_V1a.vrm"
+  },
+  {
+    "name": "Dark Knight Cecil",
+    "thumbnail": "./avatarThumbnailsSmall/cecilDarkKnight.webp",
+    "image": "./avatars/dark-knight-cecil.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "Captain of the Red Wings",
+    "vnyanName": "SKAT_DARKNIGHT_V1.vrm"
+  },
+  {
+    "name": "Paladin Cecil",
+    "thumbnail": "./avatarThumbnailsSmall/cecilPaladin.webp",
+    "image": "./avatars/paladin-cecil.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "Cool Moon Guy",
+    "vnyanName": "SWOLEKAT_PALADIN-BLENDERBUILD.vrm"
+  },
+  {
+    "name": "Bloodborne Doll",
+    "thumbnail": "./avatarThumbnailsSmall/bloodborne.webp",
+    "image": "./avatars/bloodborne-doll.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "You can use the doll however you like",
+    "vnyanName": "SBAE_BLOODBORNE_FINAL.vrm"
+  },
+  {
+    "name": "Chris Swolefield",
+    "thumbnail": "./avatarThumbnailsSmall/re5Chris.webp",
+    "image": "./avatars/chris-swolefield.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "Punching boulders and getting older",
+    "vnyanName": "RE5_SWOLEKAT_V3-VNyan.vrm"
+  },
+  {
+    "name": "Swolekatamari",
+    "thumbnail": "./avatarThumbnailsSmall/swolekatamari.webp",
+    "image": "./avatars/swoleKatamari.gif",
+    "author": "Joberg",
+    "authorLink": "https://twitter.com/alejoberg",
+    "modelType": "swolekat",
+    "tagline": "na na na na na na na watching swolekat stream",
+    "vnyanName": "Royal Cousin SwoleKat.vsfavatar"
+  },
+  {
+    "name": "Satsuki",
+    "thumbnail": "./avatarThumbnailsSmall/satsuki.webp",
+    "image": "./avatars/satsuki-kiryuuin.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "GAMAGOORI! I'm H...ungry",
+    "vnyanName": "SBAE_JUNKETSU_COMPLETE.vrm"
+  },
+  {
+    "name": "Felix Argyle",
+    "thumbnail": "./avatarThumbnailsSmall/felix.webp",
+    "image": "./avatars/felix-argyle.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "kyle",
+    "tagline": "The cutest delivery boy",
+    "vnyanName": "KYLE_FELIX-ARGYLE_Complete.vrm"
+  },
+  {
+    "name": "Pajama Swolekat",
+    "thumbnail": "./avatarThumbnailsSmall/pjswole.webp",
+    "image": "./avatars/sleepy-swolekat.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "Sleepy Eepy UwU",
+    "vnyanName": "SWOLEKAT2.5_PAJAMA_COMPLETE.vrm"
+  },
+  {
+    "name": "Secretary Bae",
+    "thumbnail": "./avatarThumbnailsSmall/secretary.webp",
+    "image": "./avatars/secretary.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Let's go to Atami!",
+    "vnyanName": "SBAE_RITSUKO-ENSHU_COMPLETE.vrm"
+  },
+  {
+    "name": "Conductor Swolekat",
+    "thumbnail": "./avatarThumbnailsSmall/conductor.webp",
+    "image": "./avatars/conductor.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "All aboard the swole express!",
+    "vnyanName": "TRAINCONDUCTOR_SWOLEKAT_V1.1-UPGRADE.vrm"
+  },
+  {
+    "name": "TetsuBae",
+    "thumbnail": "./avatarThumbnailsSmall/tetsuBae.webp",
+    "image": "./avatars/trainbae.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Do you need another continue?",
+    "vnyanName": "TETSUBAE1.1_UPGRADE.vrm"
+  },
+  {
+    "name": "Mobian Swolekat",
+    "thumbnail": "./avatarThumbnailsSmall/mobian.webp",
+    "image": "./avatars/mobian.gif",
+    "author": "XSweetPassionX",
+    "authorLink": "https://www.deviantart.com/xsweetpassionx/commission/Rigged-Mobian-Model-VTuber-Ready-VRChat-Ready-1646884",
+    "modelType": "swolekat",
+    "tagline": "Gotta go fast!",
+    "vnyanName": "SwoleKats Character wiggling ears.vrm"
+  },
+  {
+    "name": "Phoenix Wright",
+    "thumbnail": "./avatarThumbnailsSmall/phoneixWright.webp",
+    "image": "./avatars/phoenix-wright.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "OBJECTION!",
+    "vnyanName": "SKAT_PHOENIX_WRIGHT_COMPLETE.vrm"
+  },
+  {
+    "name": "Lara",
+    "thumbnail": "./avatarThumbnailsSmall/laura.webp",
+    "image": "./avatars/laura.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Raidin tombs and fillin... streams with fun!",
+    "vnyanName": "SBAE_3.0-TOMBRAIDER_v1.vrm"
+  },
+  {
+    "name": "Solid Swole",
+    "thumbnail": "./avatarThumbnailsSmall/mgs.webp",
+    "image": "./avatars/solid-swole.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "I try to keep sneaking around but I'm dummy thicc",
+    "vnyanName": "SWOLEKAT2.5_MGS_v1.vrm"
+  },
+  {
+    "name": "Arina",
+    "thumbnail": "./avatarThumbnailsSmall/arinabae.webp",
+    "image": "./avatars/arina.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "If your're heart isn't doki-doking I'm gonna have to waku waku!",
+    "vnyanName": "SBAE_3.0-BB_ARINA_V2.vsfavatar"
+  },
+  {
+    "name": "Mobian Swolebae",
+    "thumbnail": "./avatarThumbnailsSmall/mobianswolebae.webp",
+    "image": "./avatars/mobian-swolebae.gif",
+    "author": "XSweetPassionX",
+    "authorLink": "https://www.deviantart.com/xsweetpassionx/commission/Rigged-Mobian-Model-VTuber-Ready-VRChat-Ready-1646884",
+    "modelType": "bae",
+    "tagline": "Like rouge but a cat :3",
+    "vnyanName": "Swolebae Mobian 0.0 ARKIT.vrm"
+  },
+  {
+    "name": "Glitch_Kitten",
+    "thumbnail": "./avatarThumbnailsSmall/gk.webp",
+    "image": "./avatars/glitch-kitten.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "kyle",
+    "tagline": "I'm your wifi waifu :3",
+    "vnyanName": "GLITCH_KITTEN-COMPLETE.vrm"
+  },
+  {
+    "name": "Stealth Link",
+    "thumbnail": "./avatarThumbnailsSmall/stealthlink.webp",
+    "image": "./avatars/stealthLink.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "kyle",
+    "tagline": "If thinking doesn't work, try force.",
+    "vnyanName": "KYLE_BOTW_FINAL.vrm"
+  },
+  {
+    "name": "Gothbae Necoarc",
+    "thumbnail": "./avatarThumbnailsSmall/gothbaeNecoarc.webp",
+    "image": "./avatars/necoarc.gif",
+    "author": "Andromeda Zach",
+    "authorLink": "https://vgen.co/AndromedaZach",
+    "modelType": "bae",
+    "tagline": "Burenyaaaa~~~",
+    "vnyanName": "GothBaeNecoArc VSF.vsfavatar"
+  },
+  {
+    "name": "Elly",
+    "thumbnail": "./avatarThumbnailsSmall/elly.webp",
+    "image": "./avatars/elly.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "PS1 Classic UwU",
+    "vnyanName": "SBAE_XENOGEARS_V1.vrm"
+  },
+  {
+    "name": "Webfishing Swolekat",
+    "thumbnail": "./avatarThumbnailsSmall/webfishing.webp",
+    "image": "./avatars/webfishing.gif",
+    "author": "Joberg",
+    "authorLink": "https://twitter.com/alejoberg",
+    "modelType": "swolekat",
+    "tagline": "Man I Love Fishing",
+    "vnyanName": "SwoleKat Webfisher.vsfavatar"
+  },
+  {
+    "name": "Maid Swolekat",
+    "thumbnail": "./avatarThumbnailsSmall/maidSwolekat.webp",
+    "image": "./avatars/maid-swolekat.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "The MOST KAWAII MAID EVER!",
+    "vnyanName": "FRANKENBAE_MAID.vrm"
+  },
+  {
+    "name": "Maid Ketamine",
+    "thumbnail": "./avatarThumbnailsSmall/maidketamine.webp",
+    "image": "./avatars/maidKetamine.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "kyle",
+    "tagline": "The ACTUAL MOST KAWAII MAID EVER!",
+    "vnyanName": "GLITCH_MAID.vrm"
+  }
+]
