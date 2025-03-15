@@ -171,6 +171,15 @@
     "dateAdded": 0
   },
   {
+    "name": "!settitle",
+    "description": "changes the title",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 0
+  },
+  {
     "name": "!text1 through !text20",
     "description": "puts text on swolekat",
     "permissions": "mod",
