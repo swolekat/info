@@ -2066,5 +2066,14 @@
       "youtubeChat"
     ],
     "dateAdded": 1741842791000
+  },
+  {
+    "name": "!relationship otherChatterName",
+    "description": "Find out what your relationship level is",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1743034036000
   }
 ]
