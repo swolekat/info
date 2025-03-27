@@ -2075,5 +2075,15 @@
       "twitchChat"
     ],
     "dateAdded": 1743034036000
+  },
+  {
+    "name": "!ball",
+    "description": "Throw a ball at swole",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1743034036000
   }
 ]
