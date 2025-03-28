@@ -2085,5 +2085,15 @@
       "youtubeChat"
     ],
     "dateAdded": 1743034036000
+  },
+  {
+    "name": "puma won",
+    "description": "HE REALLY DID IT!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1743135064000
   }
 ]
