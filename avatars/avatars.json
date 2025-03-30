@@ -416,7 +416,6 @@
     "vnyanName": "swolekat_1_0_white.vrm",
     "sammiName": "swolekat1white",
     "aiDescription": "The original swolekat model except the fur is completely white. It's a buff tabby cat in a speedo but there is no tail. It a reskinned model of a japanese swimmer with a bowl cut and you can still see remnants of the bowl cut if you look closely. "
-
   },
   {
     "name": "Lady D",
@@ -717,7 +716,6 @@
     "vnyanName": "KYLE_FELIX-ARGYLE_Complete.vrm",
     "sammiName": "felixargyle",
     "aiDescription": "This model features kyle with in an outfit and hairstyle similar to Felix Argyle from the anime Re: Zero. "
-
   },
   {
     "name": "Pajama Swolekat",
@@ -862,7 +860,6 @@
     "vnyanName": "KYLE_BOTW_FINAL.vrm",
     "sammiName": "link",
     "aiDescription": "This model features kyle in an outfit similar to Link's Steath outfit from Legend of Zelda: Breath of the Wild. "
-
   },
   {
     "name": "Gothbae Necoarc",
@@ -922,6 +919,18 @@
     "tagline": "The ACTUAL MOST KAWAII MAID EVER!",
     "vnyanName": "GLITCH_MAID.vrm",
     "sammiName": "maidketamine",
-    "aiDescription": "This model features glitch ketamine lacey white dress in a gothic lolita style. The dress has baby blue bows and pink roses with baby blue platform shoes and white stockings. The model has a side tail hair style.. "
+    "aiDescription": "This model features glitch ketamine lacey white dress in a gothic lolita style. The dress has baby blue bows and pink roses with baby blue platform shoes and white stockings. The model has a side tail hair style. "
+  },
+  {
+    "name": "Raiden",
+    "thumbnail": "./avatarThumbnailsSmall/raiden.webp",
+    "image": "./avatars/raiden.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "swolekat",
+    "tagline": "Time for REVENGENCE",
+    "vnyanName": "SWOLEKAT2.5_RAIDEN_COMPLETE_v2.vrm",
+    "sammiName": "raiden",
+    "aiDescription": "This model is swolekat in an outfit similar to Raiden from Metal Gear Rising Revegeance."
   }
 ]
