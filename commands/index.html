@@ -94,6 +94,7 @@
             const response = await fetch('./commands.json');
             COMMANDS = await response.json();
             makeCommandList();
+            updateCommandCount();
         };
 
         const makeCommandList = () => {
@@ -178,8 +179,6 @@
         };
 
         getCommands();
-        makeCommandList();
-        updateCommandCount();
     }());
 </script>
 </body>
