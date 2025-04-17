@@ -2095,5 +2095,25 @@
       "youtubeChat"
     ],
     "dateAdded": 1743135064000
+  },
+  {
+    "name": "!assistantBooba",
+    "description": "by popular request",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1744860200000
+  },
+  {
+    "name": "!assistantCake",
+    "description": "by popular request",
+    "permissions": "vipAndSubs",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1744860200000
   }
 ]
