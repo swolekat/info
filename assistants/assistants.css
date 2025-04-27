@@ -1,0 +1,30 @@
+.assistant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;
+}
+
+.assistant {
+    display: flex;
+}
+
+.assistant-info {
+    padding: 10px;
+    background: #212020;
+    color: #fff;
+}
+
+.assistant-icon {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.assistant-name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.assistant-description {
+    font-size: 20px;
+}
