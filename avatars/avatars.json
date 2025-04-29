@@ -932,5 +932,17 @@
     "vnyanName": "SWOLEKAT2.5_RAIDEN_COMPLETE_v2.vrm",
     "sammiName": "raiden",
     "aiDescription": "This model is swolekat in an outfit similar to Raiden from Metal Gear Rising Revegeance."
+  },
+  {
+    "name": "Lulu",
+    "thumbnail": "./avatarThumbnailsSmall/lulu.webp",
+    "image": "./avatars/lulu.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "She should have been in X-2",
+    "vnyanName": "GOTHBAE_LULU-FFX_COMPLETE.vrm",
+    "sammiName": "lulu",
+    "aiDescription": "This model is gothbae in an outfit similar to Lulu from Final Fantasy X."
   }
 ]
