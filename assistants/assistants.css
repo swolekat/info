@@ -28,3 +28,22 @@
 .assistant-description {
     font-size: 20px;
 }
+
+@media (max-width: 1400px) {
+    .assistant-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .assistant {
+        flex-direction: column;
+    }
+    .assistant-icon {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+}

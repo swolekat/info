@@ -65,3 +65,17 @@
     font-weight: bold;
     color: #C61618;
 }
+
+@media (max-width: 900px) {
+    .emotes-section-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .emote-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
