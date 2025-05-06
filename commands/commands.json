@@ -2115,5 +2115,15 @@
       "youtubeChat"
     ],
     "dateAdded": 1744860200000
+  },
+  {
+    "name": "!changeAssistantOutfit",
+    "description": "change the assistant's outfit!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1746508329390
   }
 ]
