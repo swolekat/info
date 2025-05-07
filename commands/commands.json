@@ -2125,5 +2125,15 @@
       "youtubeChat"
     ],
     "dateAdded": 1746508329390
+  },
+  {
+    "name": "shake the baby",
+    "description": "NO NO NO!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1746590848818
   }
 ]
