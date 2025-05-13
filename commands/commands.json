@@ -2135,5 +2135,15 @@
       "youtubeChat"
     ],
     "dateAdded": 1746590848818
+  },
+  {
+    "name": "defoosed",
+    "description": "Neco arc, say the line",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1747111609480
   }
 ]
