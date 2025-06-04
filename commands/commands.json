@@ -2145,5 +2145,15 @@
       "youtubeChat"
     ],
     "dateAdded": 1747111609480
+  },
+  {
+    "name": "mcdonalds",
+    "description": "where are da burgers?",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1749080542866
   }
 ]
