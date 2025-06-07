@@ -2155,5 +2155,23 @@
       "youtubeChat"
     ],
     "dateAdded": 1749080542866
+  },
+  {
+    "name": "!pokeAssistant",
+    "description": "pokes the assistant to do something",
+    "permissions": "mod",
+    "interactMethods": [
+      "whisper"
+    ],
+    "dateAdded": 1749273973910
+  },
+  {
+    "name": "!updateThumbnail",
+    "description": "updates thumbnail on the just chatting screen",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1749273973910
   }
 ]
