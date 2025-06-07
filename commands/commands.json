@@ -2173,5 +2173,15 @@
       "twitchChat"
     ],
     "dateAdded": 1749273973910
+  },
+  {
+    "name": "!catmanpercentage",
+    "description": "Find out how often swolekat is ACTUALLY a cat man",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1749273973910
   }
 ]
