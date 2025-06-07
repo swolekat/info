@@ -64,16 +64,6 @@
 
         let AVATARS = [];
 
-        // {
-        //     name: 'Rio',
-        //     thumbnail: './avatarThumbnailsSmall/rio.webp',
-        //     image: './avatars/rio.gif',
-        //     author: 'Emergent Comics',
-        //     authorLink: 'https://emergentcomics.com',
-        //     modelType: 'bae',
-        //     tagline: 'Operator! I need your help!',
-        //     "vnyanName": "SBAE3.1-BB_RIO OF LIFELINE.vrm"
-        // },
         const getAvatars = async () => {
             const response = await fetch('./avatars.json');
             AVATARS = await response.json();

@@ -944,5 +944,17 @@
     "vnyanName": "GOTHBAE_LULU-FFX_COMPLETE.vrm",
     "sammiName": "lulu",
     "aiDescription": "This model is gothbae in an outfit similar to Lulu from Final Fantasy X."
+  },
+  {
+    "name": "Rio",
+    "thumbnail": "./avatarThumbnailsSmall/rio.webp",
+    "image": "./avatars/rio.gif",
+    "author": "Emergent Comics",
+    "authorLink": "https://emergentcomics.com",
+    "modelType": "bae",
+    "tagline": "Operator! I need your help!",
+    "vnyanName": "SBAE3.1-BB_RIO OF LIFELINE.vrm",
+    "sammiName": "rio",
+    "aiDescription": "This model is swolebae in an outfit similar to Rio from Lifeline, specifically the alternate outfit after completing the game."
   }
 ]
