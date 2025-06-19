@@ -2183,5 +2183,15 @@
       "youtubeChat"
     ],
     "dateAdded": 1749273973910
+  },
+  {
+    "name": "!baepercentage",
+    "description": "Find out how often swolekat is ACTUALLY swolebae",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat",
+      "youtubeChat"
+    ],
+    "dateAdded": 1750371353833
   }
 ]
