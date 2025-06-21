@@ -1,0 +1,92 @@
+.content {
+    padding: 100px 40px 40px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: #000;
+    color: #cfa42e;
+    font-size: 24px;
+}
+.inner-content {
+    border: 5px solid #cfa42e;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px 40px;
+}
+
+.title {
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+.small-title {
+    font-size: 48px;
+    margin-bottom: -20px;
+}
+
+.big-title {
+    font-size: 96px;
+}
+
+.letter-text {
+    margin-top: -20px;
+}
+
+.commands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;
+}
+
+.command {
+    background: #2e2e2e;
+    padding: 10px;
+}
+
+.command-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.stocks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 20px;
+}
+
+.stock {
+    display: flex;
+    gap: 20px;
+}
+
+.stock-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.stock-content {
+    padding: 10px;
+    background: #2e2e2e;
+}
+
+.stock-symbol {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.stock-description {
+
+}
+
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.question {
+    font-weight: bold;
+}

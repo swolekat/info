@@ -1,0 +1,50 @@
+.mini-game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+    grid-gap: 20px;
+}
+
+.game {
+    display: flex;
+    width: 100%;
+}
+
+.game-info {
+    padding: 10px;
+    background: #9d9d9d;
+    flex-grow: 1;
+}
+
+.game-icon {
+    display: block;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.game-name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.game-description {
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .mini-game-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .game {
+        width: 100%;
+        flex-direction: column;
+    }
+    .game-icon {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+}
+
