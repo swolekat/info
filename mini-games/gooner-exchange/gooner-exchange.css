@@ -7,6 +7,7 @@
     color: #cfa42e;
     font-size: 24px;
 }
+
 .inner-content {
     border: 5px solid #cfa42e;
     display: flex;
@@ -81,7 +82,6 @@
 
 }
 
-
 .faq-list {
     display: flex;
     flex-direction: column;
@@ -90,3 +90,43 @@
 .question {
     font-weight: bold;
 }
+
+@media (max-width: 1000px) {
+    .title {
+        padding: 40px;
+    }
+
+    .small-title {
+        font-size: 36px;
+        margin-bottom: -20px;
+    }
+
+    .big-title {
+        font-size: 72px;
+    }
+
+    .commands-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stocks-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .content {
+        font-size: 18px;
+    }
+
+    .stock {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
