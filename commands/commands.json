@@ -2193,5 +2193,23 @@
       "youtubeChat"
     ],
     "dateAdded": 1750371353833
+  },
+  {
+    "name": "!attendance",
+    "description": "Find out what your attendance streak is!",
+    "permissions": "everybody",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1751424872300
+  },
+  {
+    "name": "!restartCatmanPercentage",
+    "description": "Restart the model tracking thing",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1751424872300
   }
 ]
