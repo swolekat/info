@@ -1,3 +1,19 @@
+.goody-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+}
+
+@media (max-width: 800px) {
+    .goody-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .goody-section-content {
+        flex-direction: column;
+    }
+}
+
 .goody-section {
     padding: 30px;
     background: #C61618;
@@ -10,10 +26,15 @@
     border-radius: 5px;
     display: flex;
     width: 100%;
+    gap: 40px;
+    height: 100%;
 }
 
-.goody-section:nth-child(even) {
+.goody-section:nth-child(3n+1) {
     background: #5E5651;
+}
+.goody-section:nth-child(3n+2) {
+    background: #38312C;
 }
 
 .description {
@@ -42,7 +63,6 @@ p {
 }
 
 .preview {
-    margin-left: 40px;
     min-width: calc(50% - 40px);
 }
 
