@@ -843,7 +843,7 @@
     "image": "./avatars/glitch-kitten.gif",
     "author": "Emergent Comics",
     "authorLink": "https://emergentcomics.com",
-    "modelType": "kyle",
+    "modelType": "ketamine",
     "tagline": "I'm your wifi waifu :3",
     "vnyanName": "GLITCH_KITTEN-COMPLETE.vrm",
     "sammiName": "gk",
@@ -915,7 +915,7 @@
     "image": "./avatars/maidKetamine.gif",
     "author": "Emergent Comics",
     "authorLink": "https://emergentcomics.com",
-    "modelType": "kyle",
+    "modelType": "ketamine",
     "tagline": "The ACTUAL MOST KAWAII MAID EVER!",
     "vnyanName": "GLITCH_MAID.vrm",
     "sammiName": "maidketamine",
@@ -956,5 +956,31 @@
     "vnyanName": "SBAE3.1-BB_RIO OF LIFELINE.vrm",
     "sammiName": "rio",
     "aiDescription": "This model is swolebae in an outfit similar to Rio from Lifeline, specifically the alternate outfit after completing the game."
+  },
+  {
+    "name": "Mobiain Maid Swolekat",
+    "thumbnail": "./avatarThumbnailsSmall/mobianMaidSwolekat.webp",
+    "image": "./avatars/mobianMaidSwolekat.gif",
+    "author": "XSweetPassionX",
+    "authorLink": "https://www.deviantart.com/xsweetpassionx/commission/Rigged-Mobian-Model-VTuber-Ready-VRChat-Ready-1646884",
+    "modelType": "swolekat",
+    "tagline": "Making Cafe 404 (sonic version) the most kawaii!",
+    "vnyanName": "Maid SwoleCat Mobian_FINAL.vrm",
+    "sammiName": "mobianMaidSwolekat",
+    "aiDescription": "This model is a combination of swolekat and swolebae in a red maid outfit. It has swolekat's head and swolebae's body covered in swolekat's fur. However, this is for the mobian (sonic the hedgehog) version of the models. The outfit is primarily red with white trim, a white apron, red heels, and sparkly see through stockings. ",
+    "hidden": true
+  },
+  {
+    "name": "Mobiain Maid Glint Ketamine",
+    "thumbnail": "./avatarThumbnailsSmall/mobianMaidKetamine.webp",
+    "image": "./avatars/mobianMaidKetamine.gif",
+    "author": "XSweetPassionX",
+    "authorLink": "https://www.deviantart.com/xsweetpassionx/commission/Rigged-Mobian-Model-VTuber-Ready-VRChat-Ready-1646884",
+    "modelType": "ketamine",
+    "tagline": "The future mistress of Cafe 404",
+    "vnyanName": "Mobian Maid KETAMINE_FINAL.vrm",
+    "sammiName": "mobianMaidKetamine",
+    "aiDescription": "This model features glitch ketamine lacey white dress in a gothic lolita style. The dress has baby blue bows and pink roses with baby blue platform shoes and white stockings. The model has a side tail hair style. The model is a mobian (a sonic the hedgehog like character).",
+    "hidden": true
   }
 ]
