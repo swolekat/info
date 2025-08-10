@@ -2220,5 +2220,14 @@
       "twitchChat"
     ],
     "dateAdded": 1752031842616
+  },
+  {
+    "name": "!efGive [username] [numberOfMDtoGive]",
+    "description": "Give meme dollars to people.",
+    "permissions": "mod",
+    "interactMethods": [
+      "twitchChat"
+    ],
+    "dateAdded": 1752031842616
   }
 ]
