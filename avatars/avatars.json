@@ -958,7 +958,7 @@
     "aiDescription": "This model is swolebae in an outfit similar to Rio from Lifeline, specifically the alternate outfit after completing the game."
   },
   {
-    "name": "Mobiain Maid Swolekat",
+    "name": "Mobian Maid Swolekat",
     "thumbnail": "./avatarThumbnailsSmall/mobianMaidSwolekat.webp",
     "image": "./avatars/mobianMaidSwolekat.gif",
     "author": "XSweetPassionX",
@@ -968,10 +968,9 @@
     "vnyanName": "Maid SwoleCat Mobian_FINAL.vrm",
     "sammiName": "mobianMaidSwolekat",
     "aiDescription": "This model is a combination of swolekat and swolebae in a red maid outfit. It has swolekat's head and swolebae's body covered in swolekat's fur. However, this is for the mobian (sonic the hedgehog) version of the models. The outfit is primarily red with white trim, a white apron, red heels, and sparkly see through stockings. ",
-    "hidden": true
   },
   {
-    "name": "Mobiain Maid Glint Ketamine",
+    "name": "Mobian Maid Glint Ketamine",
     "thumbnail": "./avatarThumbnailsSmall/mobianMaidKetamine.webp",
     "image": "./avatars/mobianMaidKetamine.gif",
     "author": "XSweetPassionX",
@@ -981,6 +980,5 @@
     "vnyanName": "Mobian Maid KETAMINE_FINAL.vrm",
     "sammiName": "mobianMaidKetamine",
     "aiDescription": "This model features glitch ketamine lacey white dress in a gothic lolita style. The dress has baby blue bows and pink roses with baby blue platform shoes and white stockings. The model has a side tail hair style. The model is a mobian (a sonic the hedgehog like character).",
-    "hidden": true
   }
 ]
