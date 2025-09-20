@@ -9,7 +9,8 @@
     "tagline": "The OG",
     "vnyanName": "swolekat_1_0.vrm",
     "sammiName": "swolekat1",
-    "aiDescription": "The original swolekat model. It's a buff tabby cat in a speedo but there is no tail. It a reskinned model of a japanese swimmer with a bowl cut and you can still see remnants of the bowl cut if you look closely. "
+    "aiDescription": "The original swolekat model. It's a buff tabby cat in a speedo but there is no tail. It a reskinned model of a japanese swimmer with a bowl cut and you can still see remnants of the bowl cut if you look closely. ",
+    "cameraType": ""
   },
   {
     "name": "BusinessKat",
@@ -21,7 +22,8 @@
     "tagline": "How business was done in the old days.",
     "vnyanName": "business cat.vrm",
     "sammiName": "businesskat",
-    "aiDescription": "The original business kat model. It has the same head as the original swolekat but with a black vest, red tie, white shirt, and black pants. This model is currently used for edward fundo. "
+    "aiDescription": "The original business kat model. It has the same head as the original swolekat but with a black vest, red tie, white shirt, and black pants. This model is currently used for edward fundo. ",
+    "cameraType": ""
   },
   {
     "name": "Swolekat 2.0",
@@ -33,7 +35,8 @@
     "tagline": "Big Buff Cat Man",
     "vnyanName": "SWOLEKAT2.6_BONE ADJ_COMPLETE.vrm",
     "sammiName": "swolekat2",
-    "aiDescription": "The swolekat model that everybody knows and loves. It's a buff tabby cat in a red speedo. "
+    "aiDescription": "The swolekat model that everybody knows and loves. It's a buff tabby cat in a red speedo. ",
+    "cameraType": ""
   },
   {
     "name": "Swolebae 1.0",
@@ -45,7 +48,8 @@
     "tagline": "The original waifu",
     "vnyanName": "swolebae_1_0.vrm",
     "sammiName": "swolebae1",
-    "aiDescription": "The original Swolebae model. Swolebae is in a red swimsuit with a floral pattern on various parts. This model has red nail polish. "
+    "aiDescription": "The original Swolebae model. Swolebae is in a red swimsuit with a floral pattern on various parts. This model has red nail polish. ",
+    "cameraType": "bae"
   },
   {
     "name": "Christmas Swolebae 1.0",
@@ -57,7 +61,8 @@
     "tagline": "Vintage Padoru",
     "vnyanName": "swolebae_1_0_christmas.vrm",
     "sammiName": "christmasswolebae1",
-    "aiDescription": "The christmas outfit for the original swolebae. She is wearing a sparkly red dress with a hood with white trim. The model is wearing is a large black leather belt with a gold buckle. This model is also wearing black thigh high boots. "
+    "aiDescription": "The christmas outfit for the original swolebae. She is wearing a sparkly red dress with a hood with white trim. The model is wearing is a large black leather belt with a gold buckle. This model is also wearing black thigh high boots. ",
+    "cameraType": "bae"
   },
   {
     "name": "Skeleton",
@@ -67,7 +72,8 @@
     "hidden": true,
     "vnyanName": "skeleton.vrm",
     "sammiName": "skeleton",
-    "aiDescription": "This model is just a skeleton. The fingers and teeth move in a really strange pattern. "
+    "aiDescription": "This model is just a skeleton. The fingers and teeth move in a really strange pattern. ",
+    "cameraType": ""
   },
   {
     "name": "Retro Swolekat",
@@ -79,7 +85,8 @@
     "tagline": "Low Poly Muscle Cat",
     "vnyanName": "SwoleKat_retro.vrm",
     "sammiName": "retroswolekat",
-    "aiDescription": "A low poly rendition of swolekat. The face and textures look like they could be out of the playstation 1 game megaman legends."
+    "aiDescription": "A low poly rendition of swolekat. The face and textures look like they could be out of the playstation 1 game megaman legends.",
+    "cameraType": ""
   },
   {
     "name": "Swolekid",
@@ -91,7 +98,8 @@
     "tagline": "Most kawaii kitten",
     "vnyanName": "Swolekat Chibi.vrm",
     "sammiName": "swolekid",
-    "aiDescription": "A chibi version of swolekat that is very cute."
+    "aiDescription": "A chibi version of swolekat that is very cute.",
+    "cameraType": "mobian"
   },
   {
     "name": "Swolebae 2.0",
@@ -103,7 +111,8 @@
     "tagline": "Waifu perfection re-imagined",
     "vnyanName": "swolebae_2_0.vrm",
     "sammiName": "swolebae2",
-    "aiDescription": "The second iteration of swolebae. In comparison to the original swolebae, he is wearing a red bikini whith a black floral pattern all over. "
+    "aiDescription": "The second iteration of swolebae. In comparison to the original swolebae, he is wearing a red bikini whith a black floral pattern all over. ",
+    "cameraType": "bae"
   },
   {
     "name": "Maid Swolebae",
@@ -115,7 +124,8 @@
     "tagline": "Here to clean up the chat",
     "vnyanName": "swolebae_2_0-maid.vrm",
     "sammiName": "maid",
-    "aiDescription": "This model is wearing a black and white maid uniform with a short skirt and black and white striped stockings. This model also has long unruly hair. "
+    "aiDescription": "This model is wearing a black and white maid uniform with a short skirt and black and white striped stockings. This model also has long unruly hair. ",
+    "cameraType": "bae"
   },
   {
     "name": "Schoolgirl Swolebae",
@@ -127,7 +137,8 @@
     "tagline": "Just like in one of my animes",
     "vnyanName": "swolebae_2_0-school.vrm",
     "sammiName": "schoolgirl",
-    "aiDescription": "This model is wearing a japanese style school uniform with a white long sleeved collared shirt with stripped white and red cuffs, a red skirt with white stripes on the hem, black socks with white stripes near the thighs, and white tennis shoes. "
+    "aiDescription": "This model is wearing a japanese style school uniform with a white long sleeved collared shirt with stripped white and red cuffs, a red skirt with white stripes on the hem, black socks with white stripes near the thighs, and white tennis shoes. ",
+    "cameraType": "bae"
   },
   {
     "name": "Asuka",
@@ -139,7 +150,8 @@
     "tagline": "It's not like I want you to pick me or anything",
     "vnyanName": "SWOLEKAT_ASUKA.vrm",
     "sammiName": "asuka",
-    "aiDescription": "This model features swolebae in a plugsuit and hairstyle similar to Asuka from the anime Evangelion. It's mostly red with black and green accents. "
+    "aiDescription": "This model features swolebae in a plugsuit and hairstyle similar to Asuka from the anime Evangelion. It's mostly red with black and green accents. ",
+    "cameraType": "bae"
   },
   {
     "name": "Rei",
@@ -151,7 +163,8 @@
     "tagline": "Understood.",
     "vnyanName": "SWOLEKAT_REI.vrm",
     "sammiName": "rei",
-    "aiDescription": "This model features swolebae in a plugsuit and hairstyle similar to Rei from the anime Evangelion. It's mostly white with black and orange accents. "
+    "aiDescription": "This model features swolebae in a plugsuit and hairstyle similar to Rei from the anime Evangelion. It's mostly white with black and orange accents. ",
+    "cameraType": "bae"
   },
   {
     "name": "Chibi Swolebae",
@@ -163,7 +176,8 @@
     "tagline": "Chibi with the biggest bitties",
     "vnyanName": "swolebae chibi.vrm",
     "sammiName": "chibiswolebae",
-    "aiDescription": "This model is a chibi version of swolebae. The model is wearing a red bikini with black polka dots."
+    "aiDescription": "This model is a chibi version of swolebae. The model is wearing a red bikini with black polka dots.",
+    "cameraType": "mobian"
   },
   {
     "name": "Retro Swolebae",
@@ -175,7 +189,8 @@
     "tagline": "Better than Laura",
     "vnyanName": "retro swolebae.vrm",
     "sammiName": "retroswolebae",
-    "aiDescription": "A low poly rendition of swolebae. The face and textures look like they could be out of the playstation 1 game megaman legends."
+    "aiDescription": "A low poly rendition of swolebae. The face and textures look like they could be out of the playstation 1 game megaman legends.",
+    "cameraType": "bae"
   },
   {
     "name": "Subnautica Swolebae",
@@ -187,7 +202,8 @@
     "tagline": "Subzero Waifu",
     "vnyanName": "SWOLEKAT_SUBNAUTICA.vrm",
     "sammiName": "subnautica",
-    "aiDescription": "This model is based off of the wetsuit worn by Robin Ayou in Subnautica Below Zero. The hairstyle for this model is a ponytail. "
+    "aiDescription": "This model is based off of the wetsuit worn by Robin Ayou in Subnautica Below Zero. The hairstyle for this model is a ponytail. ",
+    "cameraType": "bae"
   },
   {
     "name": "Nunbae",
@@ -199,7 +215,8 @@
     "tagline": "You definitely need Jesus",
     "vnyanName": "SWOLEKAT_NUN.vrm",
     "sammiName": "nun",
-    "aiDescription": "This model is based off of a nun's outfit where it is a long black dress with long sleeves. The model is also wearing an nun's habit. This is the model that nunbae uses. "
+    "aiDescription": "This model is based off of a nun's outfit where it is a long black dress with long sleeves. The model is also wearing an nun's habit. This is the model that nunbae uses. ",
+    "cameraType": "bae"
   },
   {
     "name": "Gothbae",
@@ -211,7 +228,8 @@
     "tagline": "Ebony Dark'ness Dementia Raven Way",
     "vnyanName": "GOTHBAE1.1_COMPLETE.vrm",
     "sammiName": "gothswolebae",
-    "aiDescription": "This is gothbae's main model. The model has long black hair and pale white skin. The model is wearing a corsette style tank top and black trip pants with skulls and chains. "
+    "aiDescription": "This is gothbae's main model. The model has long black hair and pale white skin. The model is wearing a corsette style tank top and black trip pants with skulls and chains. ",
+    "cameraType": "bae"
   },
   {
     "name": "T-Shirt Swolekat",
@@ -223,7 +241,8 @@
     "tagline": "Nipples covered and ready for action!",
     "vnyanName": "SWOLEKAT_TSHIRT.vrm",
     "sammiName": "tshirtswolekat",
-    "aiDescription": "This model is the same as swolekat but is also wearing a t-shirt that is sold in swolekat's merch store. "
+    "aiDescription": "This model is the same as swolekat but is also wearing a t-shirt that is sold in swolekat's merch store. ",
+    "cameraType": ""
   },
   {
     "name": "BusinessKat 2.0",
@@ -235,7 +254,8 @@
     "tagline": "The new era of synergy!",
     "vnyanName": "2_5-SWOLEKAT_REDWINE SUIT.vrm",
     "sammiName": "businesskat2",
-    "aiDescription": "This model features swolekat wearing a red wine suit with a black tie and undershirt and black leather shoes. "
+    "aiDescription": "This model features swolekat wearing a red wine suit with a black tie and undershirt and black leather shoes. ",
+    "cameraType": ""
   },
   {
     "name": "Western Bae",
@@ -247,7 +267,8 @@
     "tagline": "Y'all best behave. There's a new sherrif in town",
     "vnyanName": "SWOLEBAE_4TH-OF-JULY.vrm",
     "sammiName": "westernbae",
-    "aiDescription": "This model features swolebae in an outfit similar to Tina Armstrong's outfit from Dead or Alive 5: brown cowboy hat, american flag bikini, black jeans, and cowboy boots. "
+    "aiDescription": "This model features swolebae in an outfit similar to Tina Armstrong's outfit from Dead or Alive 5: brown cowboy hat, american flag bikini, black jeans, and cowboy boots. ",
+    "cameraType": "bae"
   },
   {
     "name": "Penny",
@@ -259,7 +280,8 @@
     "tagline": "Got any crops for me?",
     "vnyanName": "SWOLEBAE_PENNY.vrm",
     "sammiName": "penny",
-    "aiDescription": "This model features swolebae wearing clothes and a similar hairstyle as Penny from stardew valley: Orange bob haircut, yellow short sleeved button down shirt, and a dark orange skirt. "
+    "aiDescription": "This model features swolebae wearing clothes and a similar hairstyle as Penny from stardew valley: Orange bob haircut, yellow short sleeved button down shirt, and a dark orange skirt. ",
+    "cameraType": "bae"
   },
   {
     "name": "Swoleloaf",
@@ -271,7 +293,8 @@
     "tagline": "15 grams of protein!",
     "vnyanName": "SWOLEKAT_BREAD.vrm",
     "sammiName": "swoleloaf",
-    "aiDescription": "This model has swolekats head attached to a loaf like body with a similar fur pattern. It is referencing the senko loaf meme. "
+    "aiDescription": "This model has swolekats head attached to a loaf like body with a similar fur pattern. It is referencing the senko loaf meme. ",
+    "cameraType": "mobian"
   },
   {
     "name": "Baeloaf",
@@ -283,7 +306,8 @@
     "tagline": "100% pure honey bun!",
     "vnyanName": "SWOLEBAE_BREAD.vrm",
     "sammiName": "baeloaf",
-    "aiDescription": "This model has swolebae's head attached to a loaf like body with a similar fur pattern. It is referencing the senko loaf meme. "
+    "aiDescription": "This model has swolebae's head attached to a loaf like body with a similar fur pattern. It is referencing the senko loaf meme. ",
+    "cameraType": "mobian"
   },
   {
     "name": "Gothbae Dress",
@@ -295,7 +319,8 @@
     "tagline": "Mistress of the Chat OwO",
     "vnyanName": "SWOLEBAE_GOTH2.vrm",
     "sammiName": "gothbaedress",
-    "aiDescription": "This model is gothbae but in an elegant black dress."
+    "aiDescription": "This model is gothbae but in an elegant black dress.",
+    "cameraType": "bae"
   },
   {
     "name": "Maika",
@@ -307,7 +332,8 @@
     "tagline": "Smile",
     "vnyanName": "SWOLEBAE_BLEND_S_PINK.vrm",
     "sammiName": "maika",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Maika from the anime Blend S. It is a pink uniform and her dark brown hair is in twin tails with light blue balls as hair ties. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Maika from the anime Blend S. It is a pink uniform and her dark brown hair is in twin tails with light blue balls as hair ties. ",
+    "cameraType": "bae"
   },
   {
     "name": "Kaho",
@@ -319,7 +345,8 @@
     "tagline": "Sweet",
     "vnyanName": "SWOLEBAE_BLEND_S_BLUE.vrm",
     "sammiName": "kaho",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Kaho from the anime Blend S. It is a light blue uniform and her blonde hair is in twin tails. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Kaho from the anime Blend S. It is a light blue uniform and her blonde hair is in twin tails. ",
+    "cameraType": "bae"
   },
   {
     "name": "Mafuyu",
@@ -331,7 +358,8 @@
     "tagline": "Sister",
     "vnyanName": "SWOLEBAE_BLEND_S_YELLOW.vrm",
     "sammiName": "mafuyu",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Mafuyu from the anime Blend S. It is a yellow uniform and her brown hair is cut short. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Mafuyu from the anime Blend S. It is a yellow uniform and her brown hair is cut short. ",
+    "cameraType": "bae"
   },
   {
     "name": "Miu",
@@ -343,7 +371,8 @@
     "tagline": "Sadistic",
     "vnyanName": "SWOLEBAE_BLEND_S_PURPLE.vrm",
     "sammiName": "miu",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Miyu from the anime Blend S. It is a bright purple uniform and her red hair is in braids. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Miyu from the anime Blend S. It is a bright purple uniform and her red hair is in braids. ",
+    "cameraType": "bae"
   },
   {
     "name": "Hideri",
@@ -355,7 +384,8 @@
     "tagline": "Surprise",
     "vnyanName": "SWOLEBAE_BLEND_S_GREEN.vrm",
     "sammiName": "hideri",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Hideri from the anime Blend S. It is a mint green uniform and her silver hair is in long with a black ribbon on the top. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Hideri from the anime Blend S. It is a mint green uniform and her silver hair is in long with a black ribbon on the top. ",
+    "cameraType": "bae"
   },
   {
     "name": "SwoleServer",
@@ -367,7 +397,8 @@
     "tagline": "We are...",
     "vnyanName": "WAITER-V1-COMPLETE.vrm",
     "sammiName": "swoleserver",
-    "aiDescription": "This model has swolekat in a waiter like uniform. The model is wearing a white collared long sleeve shirt with rolled sleeves. Around the waist is a black apron and the model is wearing navy shoes and brown leather shoes. "
+    "aiDescription": "This model has swolekat in a waiter like uniform. The model is wearing a white collared long sleeve shirt with rolled sleeves. Around the waist is a black apron and the model is wearing navy shoes and brown leather shoes. ",
+    "cameraType": ""
   },
   {
     "name": "SwoleServer Alt",
@@ -379,7 +410,8 @@
     "tagline": "... Stile!",
     "vnyanName": "WAITER-V2-COMPLETE.vrm",
     "sammiName": "swoleserveralt",
-    "aiDescription": "This model has swolekat in a waiter like uniform. Swolekat's fur is black for this model. The model is wearing a white collared long sleeve shirt with rolled sleeves. Around the waist is a black apron and the model is wearing navy shoes and brown leather shoes. "
+    "aiDescription": "This model has swolekat in a waiter like uniform. Swolekat's fur is black for this model. The model is wearing a white collared long sleeve shirt with rolled sleeves. Around the waist is a black apron and the model is wearing navy shoes and brown leather shoes. ",
+    "cameraType": ""
   },
   {
     "name": "Emerald Herald",
@@ -391,7 +423,8 @@
     "tagline": "Seek Seek Lest",
     "vnyanName": "SWOLEBAE_EMERALD HERALD.vrm",
     "sammiName": "emeraldherald",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Emerald Herald from Dark Souls 2. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Emerald Herald from Dark Souls 2. ",
+    "cameraType": "bae"
   },
   {
     "name": "Swolekat 1.0 Black",
@@ -403,7 +436,8 @@
     "tagline": "Black version of the classic",
     "vnyanName": "swolekat_1_0_black.vrm",
     "sammiName": "swolekat1black",
-    "aiDescription": "The original swolekat model except the fur is completely black. It's a buff tabby cat in a speedo but there is no tail. It a reskinned model of a japanese swimmer with a bowl cut and you can still see remnants of the bowl cut if you look closely. "
+    "aiDescription": "The original swolekat model except the fur is completely black. It's a buff tabby cat in a speedo but there is no tail. It a reskinned model of a japanese swimmer with a bowl cut and you can still see remnants of the bowl cut if you look closely. ",
+    "cameraType": ""
   },
   {
     "name": "Swolekat 1.0 White",
@@ -415,7 +449,8 @@
     "tagline": "White version of the classic",
     "vnyanName": "swolekat_1_0_white.vrm",
     "sammiName": "swolekat1white",
-    "aiDescription": "The original swolekat model except the fur is completely white. It's a buff tabby cat in a speedo but there is no tail. It a reskinned model of a japanese swimmer with a bowl cut and you can still see remnants of the bowl cut if you look closely. "
+    "aiDescription": "The original swolekat model except the fur is completely white. It's a buff tabby cat in a speedo but there is no tail. It a reskinned model of a japanese swimmer with a bowl cut and you can still see remnants of the bowl cut if you look closely. ",
+    "cameraType": ""
   },
   {
     "name": "Lady D",
@@ -427,7 +462,8 @@
     "tagline": "7ft tall dommy mommy OwO",
     "vnyanName": "SBAE_LADY-D.vrm",
     "sammiName": "ladyd",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Lady Dimitrescu from Resident Evil 8. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Lady Dimitrescu from Resident Evil 8. ",
+    "cameraType": "bae"
   },
   {
     "name": "ThiccBae",
@@ -439,7 +475,8 @@
     "tagline": "Gaddamn she thick",
     "vnyanName": "ALTBAE_BLUE_WHITE-WO2_0.vrm",
     "sammiName": "thiccbae",
-    "aiDescription": "This model is an alternate version of swolebae. The model is wearing skin tight blue and white work out clothes with white running shoes. The model has long white and grey hair as well as one eye that is yellow with the other being blue. This model has a very big butt."
+    "aiDescription": "This model is an alternate version of swolebae. The model is wearing skin tight blue and white work out clothes with white running shoes. The model has long white and grey hair as well as one eye that is yellow with the other being blue. This model has a very big butt.",
+    "cameraType": "bae"
   },
   {
     "name": "GothiccBae",
@@ -451,7 +488,8 @@
     "tagline": "Gaddamn she thick (and goth)",
     "vnyanName": "ALTBAE_GOTH-WO2_0.vrm",
     "sammiName": "gothiccbae",
-    "aiDescription": "This model is an alternate version of gothbae. The model is wearing skin tight grey and blacke work out clothes with white running shoes. The model has long black hair. This model has a very big butt."
+    "aiDescription": "This model is an alternate version of gothbae. The model is wearing skin tight grey and blacke work out clothes with white running shoes. The model has long black hair. This model has a very big butt.",
+    "cameraType": "bae"
   },
   {
     "name": "Kyle",
@@ -463,7 +501,8 @@
     "tagline": "Femboi swolekat from another dimension!",
     "vnyanName": "KYLE1.1 - EAR AND TAIL ADJUST.vrm",
     "sammiName": "kyle",
-    "aiDescription": "This model is an alternate version of swolekat. It is a catboy with a femboy style body type. The model is wearing a blue tshirt, white jean shorts, white crew socks with blue stripes, blue converse shoes, a blue choker. The hair is grey and white with a blue bow."
+    "aiDescription": "This model is an alternate version of swolekat. It is a catboy with a femboy style body type. The model is wearing a blue tshirt, white jean shorts, white crew socks with blue stripes, blue converse shoes, a blue choker. The hair is grey and white with a blue bow.",
+    "cameraType": "kyle"
   },
   {
     "name": "Komaru",
@@ -475,7 +514,8 @@
     "tagline": "That's one crazy bear!",
     "vnyanName": "SWOKEBAE_SCHOOL-V2.vrm",
     "sammiName": "komaru",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Komaru Naegi from Danganronpa Another Episode: Ultra Despair Girls. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Komaru Naegi from Danganronpa Another Episode: Ultra Despair Girls. ",
+    "cameraType": "bae"
   },
   {
     "name": "Christmas Swolebae 2.0",
@@ -487,7 +527,8 @@
     "tagline": "UPGRADED PADORU",
     "vnyanName": "SWOLEBAE_CHRISTAMS-2022.vrm",
     "sammiName": "christmasswolebae2",
-    "aiDescription": "This model features swolebae in a christmas themed outfit with a red velvet dress with white trim and a black corset.  The model is also wearing a santa hat, fishnets, and black calf high boots with golden buckles. "
+    "aiDescription": "This model features swolebae in a christmas themed outfit with a red velvet dress with white trim and a black corset.  The model is also wearing a santa hat, fishnets, and black calf high boots with golden buckles. ",
+    "cameraType": "bae"
   },
   {
     "name": "Baiken",
@@ -499,7 +540,8 @@
     "tagline": "One arm swordswoman",
     "vnyanName": "SBAE_BAIKEN-COMPLETE.vrm",
     "sammiName": "baiken",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Baiken from Guilty Gear. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Baiken from Guilty Gear. ",
+    "cameraType": "bae"
   },
   {
     "name": "Cowbae",
@@ -511,7 +553,8 @@
     "tagline": "Be careful for unexpected moovements",
     "vnyanName": "COWBAE-2_0.vrm",
     "sammiName": "cowbae",
-    "aiDescription": "This is cowbae's main model. The model is wearing a cowprint leotard with matching cowprint gloves and socks. There is also a cowprint headband with bow. The model has cow ears and a side ponytail. "
+    "aiDescription": "This is cowbae's main model. The model is wearing a cowprint leotard with matching cowprint gloves and socks. There is also a cowprint headband with bow. The model has cow ears and a side ponytail. ",
+    "cameraType": "bae"
   },
   {
     "name": "Recette",
@@ -523,7 +566,8 @@
     "tagline": "Want to buy something from my item shop?",
     "vnyanName": "recette.vrm",
     "sammiName": "recette",
-    "aiDescription": "This model features chibi-swolebae with in an outfit and hairstyle similar to the Recette from Recettear. "
+    "aiDescription": "This model features chibi-swolebae with in an outfit and hairstyle similar to the Recette from Recettear. ",
+    "cameraType": "mobian"
   },
   {
     "name": "Uzaki",
@@ -535,7 +579,8 @@
     "tagline": "You like me, don't you senpai!",
     "vnyanName": "SUGOIDEKAI-V03.vrm",
     "sammiName": "uzaki",
-    "aiDescription": "This model features swolebae with in an outfit similar to the Uzaki from Uzaki-chan wants to hang out. The hairstyle is similar to Uzaki's mother with a side tail with a navy hair tie. "
+    "aiDescription": "This model features swolebae with in an outfit similar to the Uzaki from Uzaki-chan wants to hang out. The hairstyle is similar to Uzaki's mother with a side tail with a navy hair tie. ",
+    "cameraType": "bae"
   },
   {
     "name": "Grungebae",
@@ -547,7 +592,8 @@
     "tagline": "Wake up honey! Time to mosh!",
     "vnyanName": "ALTGRUNGE_VSF-COMPLETE.vsfavatar",
     "sammiName": "grungebae",
-    "aiDescription": "This model features swolebae in a grunge-themed outfit with ripped jeans, a long sleeve flannel shirt, a black choker, and a black t-shirt underneath with the logo for the band kitten. The hair and eyes of this model change color similar to an RGB keyboard."
+    "aiDescription": "This model features swolebae in a grunge-themed outfit with ripped jeans, a long sleeve flannel shirt, a black choker, and a black t-shirt underneath with the logo for the band kitten. The hair and eyes of this model change color similar to an RGB keyboard.",
+    "cameraType": "bae"
   },
   {
     "name": "Maid Loaf",
@@ -559,7 +605,8 @@
     "tagline": "Da service loaf UwU",
     "vnyanName": "SBAE_BREAD-MAID.vrm",
     "sammiName": "maidloaf",
-    "aiDescription": "This model has swolebae's head attached to a loaf like body with a similar fur pattern. It is referencing the senko loaf meme. The loaf is wearing a maid outfit."
+    "aiDescription": "This model has swolebae's head attached to a loaf like body with a similar fur pattern. It is referencing the senko loaf meme. The loaf is wearing a maid outfit.",
+    "cameraType": "mobian"
   },
   {
     "name": "Swolebae 3.0",
@@ -571,7 +618,8 @@
     "tagline": "Mo bae mo booty",
     "vnyanName": "SBAE-3_1 - RED BIKINI_COMPLETE.vrm",
     "sammiName": "swolebae3",
-    "aiDescription": "This model is swolebae's main model. She is wearing a red bikini with a black floral pattern. On the sides of the bottom is two strings tied into a bow and the top features a similar bow on the back. Compared to the old swolebae 2.0 model this one has a very big butt."
+    "aiDescription": "This model is swolebae's main model. She is wearing a red bikini with a black floral pattern. On the sides of the bottom is two strings tied into a bow and the top features a similar bow on the back. Compared to the old swolebae 2.0 model this one has a very big butt.",
+    "cameraType": "bae"
   },
   {
     "name": "BAEyonetta",
@@ -583,7 +631,8 @@
     "tagline": "Character Action Waifu",
     "vnyanName": "SBAE_BAYONETTA-1.vrm",
     "sammiName": "bayonetta",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Bayonetta. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Bayonetta. ",
+    "cameraType": "bae"
   },
   {
     "name": "Gothloaf",
@@ -595,7 +644,8 @@
     "tagline": "Bred out of pure darkness",
     "vnyanName": "GOTHLOAF_v1.vrm",
     "sammiName": "gothloaf",
-    "aiDescription": "This model has gothbae's head attached to a loaf like body with a similar fur pattern. It is referencing the senko loaf meme. The loaf is wearing a maid outfit."
+    "aiDescription": "This model has gothbae's head attached to a loaf like body with a similar fur pattern. It is referencing the senko loaf meme. The loaf is wearing a maid outfit.",
+    "cameraType": "mobian"
   },
   {
     "name": "Bunny Bae",
@@ -607,7 +657,8 @@
     "tagline": "No sword riding though",
     "vnyanName": "SBAE3.0_BUNNYSUIT_V1.vrm",
     "sammiName": "bunny",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the the bunny girl from the Daikon 4 anime opening. She is wearing a red bunny suit with sparkly pink pantyhose, black heels, a white collar with a black bowtie, and red rabbit ears. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the the bunny girl from the Daikon 4 anime opening. She is wearing a red bunny suit with sparkly pink pantyhose, black heels, a white collar with a black bowtie, and red rabbit ears. ",
+    "cameraType": "bae"
   },
   {
     "name": "Astolfo",
@@ -619,7 +670,8 @@
     "tagline": "Cutest Femboy Ever UwU!",
     "vnyanName": "KYLE_ASTOLFO_V1.vrm",
     "sammiName": "astolfo",
-    "aiDescription": "This model uses kyle as a base but it is asimilar hairstyle to Astolfo from Fate Grand order. The model is wearing a japanese style schoolgirl outfit with a short white shirt, pink ribbons, a pink pleated skirt, white stockings, and black shoes. "
+    "aiDescription": "This model uses kyle as a base but it is asimilar hairstyle to Astolfo from Fate Grand order. The model is wearing a japanese style schoolgirl outfit with a short white shirt, pink ribbons, a pink pleated skirt, white stockings, and black shoes. ",
+    "cameraType": "kyle"
   },
   {
     "name": "Rosa",
@@ -631,7 +683,8 @@
     "tagline": "Cecil's Waifu",
     "vnyanName": "SBAE_ROSA_V1a.vrm",
     "sammiName": "rosa",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Rosa from Final Fantasy 4. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Rosa from Final Fantasy 4. ",
+    "cameraType": "bae"
   },
   {
     "name": "Dark Knight Cecil",
@@ -643,7 +696,8 @@
     "tagline": "Captain of the Red Wings",
     "vnyanName": "SKAT_DARKNIGHT_V1.vrm",
     "sammiName": "darkknightcecil",
-    "aiDescription": "This model features swolekat with in an outfit and hairstyle similar to Cecil the Dark Knight from Final Fantasy 4. "
+    "aiDescription": "This model features swolekat with in an outfit and hairstyle similar to Cecil the Dark Knight from Final Fantasy 4. ",
+    "cameraType": ""
   },
   {
     "name": "Paladin Cecil",
@@ -655,7 +709,8 @@
     "tagline": "Cool Moon Guy",
     "vnyanName": "SWOLEKAT_PALADIN-BLENDERBUILD.vrm",
     "sammiName": "paladincecil",
-    "aiDescription": "This model features swolekat with in an outfit and hairstyle similar to Cecil the Paladin from Final Fantasy 4. "
+    "aiDescription": "This model features swolekat with in an outfit and hairstyle similar to Cecil the Paladin from Final Fantasy 4. ",
+    "cameraType": ""
   },
   {
     "name": "Bloodborne Doll",
@@ -667,7 +722,8 @@
     "tagline": "You can use the doll however you like",
     "vnyanName": "SBAE_BLOODBORNE_FINAL.vrm",
     "sammiName": "bloodbornedoll",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Plain doll from Bloodborne. This is the primary model of Tilde Swinton."
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to the Plain doll from Bloodborne.",
+    "cameraType": "bae"
   },
   {
     "name": "Chris Swolefield",
@@ -679,7 +735,8 @@
     "tagline": "Punching boulders and getting older",
     "vnyanName": "RE5_SWOLEKAT_V3-VNyan.vrm",
     "sammiName": "chrisswolefield",
-    "aiDescription": "This model features swolekat with in an outfit and hairstyle similar to Chris Redfield from Resident Evil 5. "
+    "aiDescription": "This model features swolekat with in an outfit and hairstyle similar to Chris Redfield from Resident Evil 5. ",
+    "cameraType": ""
   },
   {
     "name": "Swolekatamari",
@@ -691,7 +748,8 @@
     "tagline": "na na na na na na na watching swolekat stream",
     "vnyanName": "Royal Cousin SwoleKat.vsfavatar",
     "sammiName": "swolekatamari",
-    "aiDescription": "This model is a version of swolekat in the style of a Royal Cousin from Katamari Damacy."
+    "aiDescription": "This model is a version of swolekat in the style of a Royal Cousin from Katamari Damacy.",
+    "cameraType": ""
   },
   {
     "name": "Satsuki",
@@ -703,7 +761,8 @@
     "tagline": "GAMAGOORI! I'm H...ungry",
     "vnyanName": "SBAE_JUNKETSU_COMPLETE.vrm",
     "sammiName": "satsuki",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Satsuki Kiryuin from Kill la Kill when she is wearing Junketsu. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Satsuki Kiryuin from Kill la Kill when she is wearing Junketsu. ",
+    "cameraType": "bae"
   },
   {
     "name": "Felix Argyle",
@@ -715,7 +774,8 @@
     "tagline": "The cutest delivery boy",
     "vnyanName": "KYLE_FELIX-ARGYLE_Complete.vrm",
     "sammiName": "felixargyle",
-    "aiDescription": "This model features kyle with in an outfit and hairstyle similar to Felix Argyle from the anime Re: Zero. "
+    "aiDescription": "This model features kyle with in an outfit and hairstyle similar to Felix Argyle from the anime Re: Zero. ",
+    "cameraType": "kyle"
   },
   {
     "name": "Pajama Swolekat",
@@ -727,7 +787,8 @@
     "tagline": "Sleepy Eepy UwU",
     "vnyanName": "SWOLEKAT2.5_PAJAMA_COMPLETE.vrm",
     "sammiName": "pjkat",
-    "aiDescription": "This model features kyle with in an outfit and hairstyle similar to Felix Argyle from the anime Re: Zero. "
+    "aiDescription": "This model features swolekat in a blue and white striped pajama outfit. He is also wearing a sleeping cap",
+    "cameraType": ""
   },
   {
     "name": "Secretary Bae",
@@ -739,7 +800,8 @@
     "tagline": "Let's go to Atami!",
     "vnyanName": "SBAE_RITSUKO-ENSHU_COMPLETE.vrm",
     "sammiName": "secretary",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Ritsuko Enshu, also just known as the secreatry from, A.I. the Somnium Files. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Ritsuko Enshu, also just known as the secretary from, A.I. the Somnium Files. ",
+    "cameraType": "bae"
   },
   {
     "name": "Conductor Swolekat",
@@ -751,7 +813,8 @@
     "tagline": "All aboard the swole express!",
     "vnyanName": "TRAINCONDUCTOR_SWOLEKAT_V1.1-UPGRADE.vrm",
     "sammiName": "conductor",
-    "aiDescription": "This model features swolekat in a train conductor uniform similar to that of the Japanese Railways group. "
+    "aiDescription": "This model features swolekat in a train conductor uniform similar to that of the Japanese Railways group. ",
+    "cameraType": ""
   },
   {
     "name": "TetsuBae",
@@ -763,7 +826,8 @@
     "tagline": "Do you need another continue?",
     "vnyanName": "TETSUBAE1.1_UPGRADE.vrm",
     "sammiName": "tetsubae",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Tetsu-chan from the Densha de Go series. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Tetsu-chan from the Densha de Go series. ",
+    "cameraType": "bae"
   },
   {
     "name": "Mobian Swolekat",
@@ -775,7 +839,8 @@
     "tagline": "Gotta go fast!",
     "vnyanName": "SwoleKats Character wiggling ears.vrm",
     "sammiName": "mobianswolekat",
-    "aiDescription": "This model features swolekat done in a mobian style similar to Sonic the Hedgehog. The model has a very fluffy chest and is wearing red shoes like Sonic the Hedgehog. "
+    "aiDescription": "This model features swolekat done in a mobian style similar to Sonic the Hedgehog. The model has a very fluffy chest and is wearing red shoes like Sonic the Hedgehog. ",
+    "cameraType": "mobian"
   },
   {
     "name": "Phoenix Wright",
@@ -787,7 +852,8 @@
     "tagline": "OBJECTION!",
     "vnyanName": "SKAT_PHOENIX_WRIGHT_COMPLETE.vrm",
     "sammiName": "phoenixwright",
-    "aiDescription": "This model features swolekat in a suit similar to the one worn by Phoenix Wright from the Ace Attorney video games. "
+    "aiDescription": "This model features swolekat in a suit similar to the one worn by Phoenix Wright from the Ace Attorney video games. ",
+    "cameraType": ""
   },
   {
     "name": "Lara",
@@ -799,7 +865,8 @@
     "tagline": "Raidin tombs and fillin... streams with fun!",
     "vnyanName": "SBAE_3.0-TOMBRAIDER_v1.vrm",
     "sammiName": "laura",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Lara Croft from the Tomb Raiders series. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Lara Croft from the Tomb Raiders series. ",
+    "cameraType": "bae"
   },
   {
     "name": "Solid Swole",
@@ -811,7 +878,8 @@
     "tagline": "I try to keep sneaking around but I'm dummy thicc",
     "vnyanName": "SWOLEKAT2.5_MGS_v1.vrm",
     "sammiName": "solidswole",
-    "aiDescription": "This model features swolekat in a suit similar to the one worn by Phoenix Wright from the Ace Attorney video games. "
+    "aiDescription": "This model features swolekat in a suit similar to the one worn by Phoenix Wright from the Ace Attorney video games. ",
+    "cameraType": ""
   },
   {
     "name": "Arina",
@@ -823,7 +891,8 @@
     "tagline": "If your're heart isn't doki-doking I'm gonna have to waku waku!",
     "vnyanName": "SBAE_3.0-BB_ARINA_V2.vsfavatar",
     "sammiName": "arina",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Arina from Waku Waku 7. This model has rabbit ears. "
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Arina from Waku Waku 7. This model has rabbit ears. ",
+    "cameraType": "bae"
   },
   {
     "name": "Mobian Swolebae",
@@ -835,7 +904,8 @@
     "tagline": "Like rouge but a cat :3",
     "vnyanName": "Swolebae Mobian 0.0 ARKIT.vrm",
     "sammiName": "mobianswolebae",
-    "aiDescription": "This model features swolebae done in a mobian style similar to Sonic the Hedgehog. This model has a heart shaped cowlick and proportions similar to Rouge the Bat. "
+    "aiDescription": "This model features swolebae done in a mobian style similar to Sonic the Hedgehog. This model has a heart shaped cowlick and proportions similar to Rouge the Bat. ",
+    "cameraType": "mobian"
   },
   {
     "name": "Glitch_Kitten",
@@ -847,7 +917,8 @@
     "tagline": "I'm your wifi waifu :3",
     "vnyanName": "GLITCH_KITTEN-COMPLETE.vrm",
     "sammiName": "gk",
-    "aiDescription": "This is glint ketamine's main model. The proportions are similar to kyle where the model is very petite and flat chested. This model has pink and white fur and purple hair in a half shaved hairstyle. The model is wearing a black shirt with a coqui symbol on it, black shorts, ripped black stockings, and converse shoes with a galaxy pattern."
+    "aiDescription": "This is glint ketamine's main model. The proportions are similar to kyle where the model is very petite and flat chested. This model has pink and white fur and purple hair in a half shaved hairstyle. The model is wearing a black shirt with a coqui symbol on it, black shorts, ripped black stockings, and converse shoes with a galaxy pattern.",
+    "cameraType": "kyle"
   },
   {
     "name": "Stealth Link",
@@ -859,7 +930,8 @@
     "tagline": "If thinking doesn't work, try force.",
     "vnyanName": "KYLE_BOTW_FINAL.vrm",
     "sammiName": "link",
-    "aiDescription": "This model features kyle in an outfit similar to Link's Steath outfit from Legend of Zelda: Breath of the Wild. "
+    "aiDescription": "This model features kyle in an outfit similar to Link's Steath outfit from Legend of Zelda: Breath of the Wild. ",
+    "cameraType": "kyle"
   },
   {
     "name": "Gothbae Necoarc",
@@ -871,7 +943,8 @@
     "tagline": "Burenyaaaa~~~",
     "vnyanName": "GothBaeNecoArc VSF.vsfavatar",
     "sammiName": "gothbaenecoarc",
-    "aiDescription": "This model features gothbae in a style similar to Neco Arc from the Tsukihime franchise. "
+    "aiDescription": "This model features gothbae in a style similar to Neco Arc from the Tsukihime franchise. ",
+    "cameraType": "mobian"
   },
   {
     "name": "Elly",
@@ -883,7 +956,8 @@
     "tagline": "PS1 Classic UwU",
     "vnyanName": "SBAE_XENOGEARS_V1.vrm",
     "sammiName": "elly",
-    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Elehayym Van Houten from the videogame Xenogears."
+    "aiDescription": "This model features swolebae with in an outfit and hairstyle similar to Elehayym Van Houten from the videogame Xenogears.",
+    "cameraType": "bae"
   },
   {
     "name": "Webfishing Swolekat",
@@ -895,7 +969,8 @@
     "tagline": "Man I Love Fishing",
     "vnyanName": "SwoleKat Webfisher.vsfavatar",
     "sammiName": "webfishing",
-    "aiDescription": "This model features swolekat in a model similar to those found in the videogame WebFishing."
+    "aiDescription": "This model features swolekat in a model similar to those found in the videogame WebFishing.",
+    "cameraType": ""
   },
   {
     "name": "Maid Swolekat",
@@ -907,7 +982,8 @@
     "tagline": "The MOST KAWAII MAID EVER!",
     "vnyanName": "FRANKENBAE_MAID.vrm",
     "sammiName": "maidswolekat",
-    "aiDescription": "This model is a combination of swolekat and swolebae in a red maid outfit. It has swolekat's head and swolebae's body covered in swolekat's fur. The model has long blonde hair with a red and white bow tieing in the back. The outfit is primarily red with white trim, a white apron, red heels, and sparkly see through stockings. "
+    "aiDescription": "This model is a combination of swolekat and swolebae in a red maid outfit. It has swolekat's head and swolebae's body covered in swolekat's fur. The model has long blonde hair with a red and white bow tieing in the back. The outfit is primarily red with white trim, a white apron, red heels, and sparkly see through stockings. ",
+    "cameraType": "bae"
   },
   {
     "name": "Maid Ketamine",
@@ -919,7 +995,8 @@
     "tagline": "The ACTUAL MOST KAWAII MAID EVER!",
     "vnyanName": "GLITCH_MAID.vrm",
     "sammiName": "maidketamine",
-    "aiDescription": "This model features glitch ketamine lacey white dress in a gothic lolita style. The dress has baby blue bows and pink roses with baby blue platform shoes and white stockings. The model has a side tail hair style. "
+    "aiDescription": "This model features glitch ketamine lacey white dress in a gothic lolita style. The dress has baby blue bows and pink roses with baby blue platform shoes and white stockings. The model has a side tail hair style. ",
+    "cameraType": "kyle"
   },
   {
     "name": "Raiden",
@@ -931,7 +1008,8 @@
     "tagline": "Time for REVENGENCE",
     "vnyanName": "SWOLEKAT2.5_RAIDEN_COMPLETE_v2.vrm",
     "sammiName": "raiden",
-    "aiDescription": "This model is swolekat in an outfit similar to Raiden from Metal Gear Rising Revegeance."
+    "aiDescription": "This model is swolekat in an outfit similar to Raiden from Metal Gear Rising Revegeance.",
+    "cameraType": ""
   },
   {
     "name": "Lulu",
@@ -943,7 +1021,8 @@
     "tagline": "She should have been in X-2",
     "vnyanName": "GOTHBAE_LULU-FFX_COMPLETE.vrm",
     "sammiName": "lulu",
-    "aiDescription": "This model is gothbae in an outfit similar to Lulu from Final Fantasy X."
+    "aiDescription": "This model is gothbae in an outfit similar to Lulu from Final Fantasy X.",
+    "cameraType": "bae"
   },
   {
     "name": "Rio",
@@ -955,7 +1034,8 @@
     "tagline": "Operator! I need your help!",
     "vnyanName": "SBAE3.1-BB_RIO OF LIFELINE.vrm",
     "sammiName": "rio",
-    "aiDescription": "This model is swolebae in an outfit similar to Rio from Lifeline, specifically the alternate outfit after completing the game."
+    "aiDescription": "This model is swolebae in an outfit similar to Rio from Lifeline, specifically the alternate outfit after completing the game.",
+    "cameraType": "bae"
   },
   {
     "name": "Mobian Maid Swolekat",
@@ -967,7 +1047,8 @@
     "tagline": "Making Cafe 404 (sonic version) the most kawaii!",
     "vnyanName": "Maid SwoleCat Mobian_FINAL.vrm",
     "sammiName": "mobianMaidSwolekat",
-    "aiDescription": "This model is a combination of swolekat and swolebae in a red maid outfit. It has swolekat's head and swolebae's body covered in swolekat's fur. However, this is for the mobian (sonic the hedgehog) version of the models. The outfit is primarily red with white trim, a white apron, red heels, and sparkly see through stockings. "
+    "aiDescription": "This model is a combination of swolekat and swolebae in a red maid outfit. It has swolekat's head and swolebae's body covered in swolekat's fur. However, this is for the mobian (sonic the hedgehog) version of the models. The outfit is primarily red with white trim, a white apron, red heels, and sparkly see through stockings. ",
+    "cameraType": "mobian"
   },
   {
     "name": "Mobian Maid Glint Ketamine",
@@ -979,6 +1060,7 @@
     "tagline": "The future mistress of Cafe 404",
     "vnyanName": "Mobian Maid KETAMINE_FINAL.vrm",
     "sammiName": "mobianMaidKetamine",
-    "aiDescription": "This model features glitch ketamine lacey white dress in a gothic lolita style. The dress has baby blue bows and pink roses with baby blue platform shoes and white stockings. The model has a side tail hair style. The model is a mobian (a sonic the hedgehog like character)."
+    "aiDescription": "This model features glitch ketamine lacey white dress in a gothic lolita style. The dress has baby blue bows and pink roses with baby blue platform shoes and white stockings. The model has a side tail hair style. The model is a mobian (a sonic the hedgehog like character).",
+    "cameraType": "mobian"
   }
 ]
